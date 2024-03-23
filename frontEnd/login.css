@@ -16,6 +16,7 @@ body{
     align-items: center;
     height: calc(100vh - 400px);
     border-radius: 10px;
+    box-shadow: 0 0 10px;
 }
 
 .formDiv {
@@ -23,9 +24,12 @@ body{
     display: block;
     
     
+    
+    
 }
 h1 {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input[type="text"],
@@ -35,6 +39,7 @@ input[type="password"]{
     padding: 5px;
     width: 200px;
     margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 button{
