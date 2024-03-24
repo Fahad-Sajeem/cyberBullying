@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
     <link rel="stylesheet" href="home_style.css">
 </head>
+
 <body>
-    <div><img class="logo" src="Assets/logo.jpg" alt="logo"></div>
-    <div><p>Provide the link and we wil generate a comprehensive report indicating the detection of cyber bullying incidents.</p></div>
-    <div class="inputBox"><input type="text" id="link" name="link" required="required">
-        <span>Enter a Valid Link</span>
+    <div class="nav">
+        <div><button class="new" id="profileButton"><img src="Assets/profile.png" /></button></div>
+        <div class="rightnav">
+            <div><button id="aboutButton">About</button></div>
+            <div><button id="logoutButton">LogOut</button></div>
+        </div>
+
     </div>
-    <div>
-        <button class="btn" id="generateButton" type="submit">Generate Report</button>
+    <div class="centrediv">
+        <div><img class="logo" src="Assets/logo.jpg" alt="logo"></div>
+        <div>
+            <p>Provide the link and we wil generate a comprehensive report indicating the detection of cyber bullying
+                incidents.</p>
+        </div>
+        <div class="inputBox"><input type="text" id="link" name="link" required="required">
+            <span>Enter a Valid Link</span>
+        </div>
+        <div>
+            <button class="btn" id="generateButton">Generate Report</button>
+        </div>
     </div>
+
 </body>
+
 </html>

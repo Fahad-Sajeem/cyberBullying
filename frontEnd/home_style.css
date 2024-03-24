@@ -16,12 +16,15 @@ body{
     background-repeat: repeat-y;
     background-attachment: scroll;
 }
-div{
+.centrediv div{
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.centrediv{
+    margin-top: -80px;
 }
 .logo{
     margin-top: 40px;
@@ -86,4 +89,31 @@ border-color: chartreuse;
 }
 .btn:active{
     transform: scale(0.95);
+}
+.new img{
+    border-radius: 20%;
+    width: 40px;
+}
+.new{
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20%;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 0px 10px 20px black;
+    border-style: none;
+}
+.nav{
+    margin-top: -50px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.rightnav{
+    display: flex;
+    justify-content:space-between;
+}
+.rightnav button{
+    background: transparent;
+    border-style: none;
+    color: white;
 }
