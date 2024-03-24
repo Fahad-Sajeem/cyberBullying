@@ -55,7 +55,7 @@ transition: 0.4s;
 .inputBox input:valid ~ span{
     font-size: 12px;
     font-weight: 500;
-transform: translateY(-70%);
+transform: translateY(-95%);
 padding: 5px;
 border-radius: 30px;
 color: navy;
@@ -80,7 +80,7 @@ border-color: chartreuse;
 .btn:hover{
     background: rgb(2, 2, 28);
     color: rgb(97, 97, 180);
-    transform: translateY(-10px);
+    transform: translateY(-12px);
     box-shadow: 0px 10px 20px black;
 
 }
