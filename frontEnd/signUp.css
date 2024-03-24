@@ -13,19 +13,21 @@ body{
 .mainDiv {
     width: 30%;
     margin: auto;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 400px);
+    /* height: calc(100vh - 400px); */
+    height: 55%;
     border-radius: 10px;
     box-shadow: 0 0 10px;
 }
 
 .formDiv {
     text-align: center;
-    display: block;
+        /* display: block; */
+        width: 100%;
 }
 h1 {
     text-align: center;
@@ -37,7 +39,8 @@ input[type="password"]{
     display: block;
     margin: 10px auto;
     padding: 5px;
-    width: 200px;
+    width: 55%;
+    align-items: center;
     margin-bottom: 15px;
 }
 button{
