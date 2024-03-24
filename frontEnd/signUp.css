@@ -1,5 +1,8 @@
 body{
-    background-color: #7e2da4;
+    background-image: url("Assets/bg.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
     margin: 0px;
     display: flex;
     justify-content: center;
