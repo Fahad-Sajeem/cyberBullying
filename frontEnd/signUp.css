@@ -32,6 +32,7 @@ body{
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 input[type="text"],
@@ -42,11 +43,17 @@ input[type="password"]{
     width: 55%;
     align-items: center;
     margin-bottom: 15px;
+    background: transparent;
+    color: white;
 }
 button{
     width: 75px;
     height: 30px;
-    background-color: rgb(56, 56, 252);
+    background: rgb(97, 97, 180);
     border-radius: 10px;
     font-size : 10px;
+}
+a{
+    color: white;
+    
 }

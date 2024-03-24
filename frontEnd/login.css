@@ -12,20 +12,20 @@ body{
 .mainDiv {
     width: 30%;
     margin: auto;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 400px);
+    /* height: calc(100vh - 400px); */
+    height: 55%;
     border-radius: 10px;
     box-shadow: 0 0 10px;
 }
 
 .formDiv {
     text-align: center;
-    display: block;
-    
+    width: 100%;
     
     
     
@@ -33,6 +33,7 @@ body{
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 input[type="text"],
@@ -40,15 +41,21 @@ input[type="password"]{
     display: block;
     margin: 10px auto;
     padding: 5px;
-    width: 200px;
+    width: 55%;
     margin-bottom: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    color: white;
     
 }
 button{
     width: 75px;
     height: 30px;
-    background-color: rgb(56, 56, 252);
+    background: rgb(97, 97, 180);
     border-radius: 10px;
     font-size : 10px;
+}
+a{
+    color: white;
+    
 }
