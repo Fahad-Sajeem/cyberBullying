@@ -5,7 +5,7 @@
     
 }
 p{
-    padding-top:30px;
+    padding:30px 30px 0px 30px;
     color: white;
     font-weight: 600;
     letter-spacing: 1px;
@@ -70,6 +70,7 @@ background-color: chartreuse;
 border-color: chartreuse;
 }
 .btn{
+    cursor: pointer;
     margin-top: 80px;
     font-size: 22px;
     padding: 0.5em 1em;
@@ -80,14 +81,16 @@ border-color: chartreuse;
     box-shadow: 0px 10px 20px black;
     transition: 0.3s;
 }
-.btn:hover{
+.btn:hover,
+.resultbtn:hover{
     background: rgb(2, 2, 28);
     color: rgb(97, 97, 180);
     transform: translateY(-12px);
     box-shadow: 0px 10px 20px black;
 
 }
-.btn:active{
+.btn:active,
+.resultbtn:active{
     transform: scale(0.95);
 }
 .new img{
@@ -120,6 +123,7 @@ border-color: chartreuse;
     justify-content:space-between;
 }
 .rightnav button{
+    cursor: pointer;
     font-weight: 600;
     font-size: 18px;
     margin-left: 20px;
@@ -140,4 +144,16 @@ border-color: chartreuse;
 .rightnav button:active,
 .new:active{
     transform: scale(0.85);
+}
+.resultbtn{
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 22px;
+    padding: 0.5em 1em;
+    border: 5px solid rgb(2, 2, 28);
+    border-radius: 15px;
+    background: rgb(97, 97, 180);
+    font-weight: 600;
+    box-shadow: 0px 10px 20px black;
+    transition: 0.3s;
 }
