@@ -21,7 +21,6 @@ const auth = getAuth(app);
 const login=document.getElementById('loginButton');
 login.addEventListener("click",function(event) {
   event.preventDefault()
-  // alert("Enter the required details !!")
 
 //   const name= document.getElementById('name').value;
   const email= document.getElementById('email').value;
@@ -30,17 +29,18 @@ login.addEventListener("click",function(event) {
 
   signInWithEmailAndPassword(auth, email, password)
 .then((userCredential) => {
-  // Signed up 
+  // Sign up successful
   const user = userCredential.user;
-//   alert("login in...")
   window.location.href="homePage.html";
-  // ...
 })
 .catch((error) => {
+  // Error occured
   const errorCode = error.code;
-  const errorMessage = error.message;
-  alert(errorMessage)
-  // ..
+  if(error.code === 'auth/invalid-email' ||error.code === 'auth/missing-password' ){
+    alert('Email/password is incorrect. Please try again.');
+  }else{
+    alert('Error Occured. Please try again.');
+  }
 });
 
 

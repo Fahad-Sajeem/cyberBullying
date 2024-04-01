@@ -16,17 +16,22 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
-const logout=document.getElementById('logoutButton');
-logout.addEventListener("click", function(event) {
-  event.preventDefault();
-
-  signOut(auth)
-    .then(() => {
-      // Sign-out successful.
-      window.location.href = "login.html"; // Redirect to the login page or wherever you want
-    })
-    .catch((error) => {
-      // An error happened.
-      console.error(error);
-    });
-});
+function handleSignOut(event) {
+    event.preventDefault();
+   
+    signOut(auth)
+       .then(() => {
+         // Sign-out successful.
+         window.location.href = "login.html"; // Redirect to the login page
+       })
+       .catch((error) => {
+         //Error Occured
+         console.error(error);
+       });
+   }
+   
+   const logout = document.getElementById('logoutButton');
+   logout.addEventListener("click", handleSignOut);
+   
+   const sideLogout = document.getElementById('sideLogoutButton');
+   sideLogout.addEventListener("click", handleSignOut);
