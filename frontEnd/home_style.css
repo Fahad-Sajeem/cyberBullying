@@ -1,4 +1,3 @@
-
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
@@ -24,7 +23,7 @@ body{
     flex-direction: column;
 }
 .centrediv{
-    margin-top: -78px;
+    margin-top: -70px;
 }
 .logo{
     margin-top: 40px;
@@ -93,23 +92,21 @@ border-color: chartreuse;
 .resultbtn:active{
     transform: scale(0.95);
 }
-.new img{
-    border-radius: 60%;
-    width: 38px;
-}
-.new{
+
+/* .new{
     cursor: pointer;
     text-align: center;
     border-radius: 100%;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px; */
     /* box-shadow: 0px 10px 10px black; */
-    border-style: none;
+    /* border-style: none;
     transition: 0.3s;
-}
+} */
 .nav{
+    text-align: center;
     /* box-shadow: 0px -10px 20px black; */
-    padding: 7px 15px 7px 7px;
-    border-radius: 40px;
+    padding: 5px;
+    border-radius: 30px;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0.1) 100%);
     box-shadow: 10px -30px 35px;
     /* background: rgb(255,255,255,0.08); */
@@ -117,6 +114,15 @@ border-color: chartreuse;
     margin: 15px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    margin: 4px 0px 0px 4px;
+    text-align: center;
+    border-radius: 60%;
+    width: 40px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 .rightnav{
     display: flex;
@@ -136,13 +142,13 @@ border-color: chartreuse;
     color: chartreuse;
     text-shadow: 0px 10px 15px black;
 }
-.new:hover{
+.nav img:hover{
     transform: translateY(-1.5px);
     box-shadow: 7px 10px 30px black;
 
 }
 .rightnav button:active,
-.new:active{
+.nav img:active{
     transform: scale(0.85);
 }
 .resultbtn{
@@ -156,4 +162,78 @@ border-color: chartreuse;
     font-weight: 600;
     box-shadow: 0px 10px 20px black;
     transition: 0.3s;
+}
+.side {
+    position: fixed; /* Fixed positioning so it stays in place regardless of scrolling */
+    z-index: 9999; /* Set a high z-index value to ensure it appears on top of other elements */
+    /* top: 0; Positioning it at the top of the viewport */
+    margin-left: 15px;
+    /* margin-top: -59px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px ;
+    transform: translateX(-150%);
+    transition: 0.3s;
+}
+.user img{
+    border-radius: 100%;
+    /* width: 40px; */
+    width: 60px;
+    margin-right: 15px;
+    /* cursor: pointer; */
+    transition: 0.3s;
+    box-shadow: 0px 0px 50px black;
+
+}
+.user{
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    box-shadow: 0px 0px 15px;
+}
+.user k{
+    font-size: 15px;
+}
+.sidebtn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.sidebtn button{
+    text-shadow: 2px 3px 2px black;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    color: white;
+    cursor: pointer;
+    margin-top: 6px;
+    /* font-size: 22px; */
+    padding: 0.5em 1em;
+    border: 2px solid white;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 400;
+    box-shadow: 0px 0px 15px black;
+    transition: 0.3s;
+}
+.sidebtn button:hover{
+    text-shadow: none;
+    background: white;
+    /* font-weight: 500; */
+    color: black;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px black;
+}
+.sidebtn button:active{
+    transform: scale(0.85);
+}
+.slide-down{
+    transform: translateX(0);
 }
