@@ -1,0 +1,6 @@
+Author,Comment,Predicted_Class
+@isi6402,I can't run the flask app after following you on azure,2
+@gustavolorenzatto1866,"I was trying to deploy my Flask-SocketIO app on Azure App Services for a college task, but I was stuck on a websocket weird timeout error. The way you did worked for me, thanks a lot and greetings from Brazil!",2
+@whenpigsfly9437,what about using a wsgi server on azure?,2
+@DevOpsLearnings,"Please LIKE the video and SUBSCRIBE to the channel, if you like the content 😊.",2
+@FlutterShipp,"tried all the above. But I used Windows VM, and instead of Shell I runned flask via RDP. im able to access the python server at localhost 8080. when called via public ip, it's not reaching/showing anything.",2
