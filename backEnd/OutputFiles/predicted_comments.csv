@@ -1,6 +1,101 @@
 Author,Comment,Predicted_Class
-@isi6402,I can't run the flask app after following you on azure,2
-@gustavolorenzatto1866,"I was trying to deploy my Flask-SocketIO app on Azure App Services for a college task, but I was stuck on a websocket weird timeout error. The way you did worked for me, thanks a lot and greetings from Brazil!",2
-@whenpigsfly9437,what about using a wsgi server on azure?,2
-@DevOpsLearnings,"Please LIKE the video and SUBSCRIBE to the channel, if you like the content 😊.",2
-@FlutterShipp,"tried all the above. But I used Windows VM, and instead of Shell I runned flask via RDP. im able to access the python server at localhost 8080. when called via public ip, it's not reaching/showing anything.",2
+@daveebbelaar,"👉🏻Join my FREE community if you want to learn more about AI: <a href=""https://bit.ly/data-alchemy"">https://bit.ly/data-alchemy</a>",2
+@kobvel,What about the data privacy? Where does your document go?,2
+@micalbozz156,"Unfortunately doesn´t work for me. It always responds with ""Hmm, I´m not sure"".",1
+@senorchavo5572,I need troubleshooting assistance.  I csn get everything connected...independently openai will respond.  When i link pinecone...it will receive the vectors from the pdf when connected...but he dumb ass assistant when asked about the document says hmmm i dont know!  😅  is ir the splitter overlap...its a larger pdf...i do legal work so its case law in trying to load and ask questions,1
+@jamminrebel3614,This 👏 is 👏 freaking 👏 awesome. 👏<br>love you.,2
+@marcuskirsch4128,You know your stuff. But  I am struggling to follow this to replicate its a lot of detail.,2
+@MattGadi,"Hi, many thanks for the video. How did you prepare the txt input file? Do you have a video or link to understand the contend and how to prepare it?<br>Thanks",2
+@xugefu,Thanks!,2
+@sanderschat,"funny to read all them comments from 'non-coders', thinking they too finally can add cool chatbots to websites for their clients... sure...<br><br>It is the same like AI is producing some crappy music, and then they say 'Ah, me as a non-musician can finnaly create music and sell it to the world'... sure....",1
+@mohsenghafari7652,hi. please help me. how to create custom model from many pdfs in Persian language? tank you.,2
+@safetime100,Thanks ❤,2
+@texsearch,10 minutes if you have quite a bit of experience and already have accounts set up.  Definitely not 10 minutes for a newb.,2
+@iGuide_net,How much do you have to pay per search to the GPT provider? One metric i saw had chatgpt-4 at 30 cents per search.,2
+@josh-cc9oy,"i want to give one like 3000 academic papers and make it able to be queried, is that too big?",2
+@gabriel-gr,"Very cool, thanks! <br>I tried to do the same with some (large-ish) PDF's but I'm getting `InsufficientQuotaError: 429` from OpenAI ;-(",2
+@thejordankeyes,This is pretty cool. How could we use this to chat with whole databases full of records instead of just a single file at a time?,2
+@nilsbuer,Very cool video. Content and video quality,2
+@lancerkind,"Copy/pasting the ""connect credential""s is different now than how the video shows. In the Flowise UI, you can no longer copy/paste the credentials. You need to click on the Connect Credential field and select ""create new"" which opens a popup window. In that window, put in your username and then finally you can copy/paste the API key.",2
+@Sergio-rq2mm,"Having watched your other videos, I was hoping that you might revisit this topic using the facebook vector tool and PGvector. Is that something you might considering?",2
+@GigaChadL337,Let third party handle your company's data other than google aws or MS? No thanks,2
+@emanuelecorbellini5110,"How big of a document could I use here to then ask questions? For example, could I take real json formatted event data from a videogame with 100k maus and then ask the bot ""What's the retention?"" Or ask it ""what are the most used units in the game?""",2
+@Ricocase,Is it private?  Langchain isn't private.,2
+@AbdelrahmanEmad-mm2xs,"thanks for this great tutorial, am frontend developer so how can i build SAAS on this?",2
+@vadimzubakhin1589,This is so impressive. Thank you.,2
+@jmay3230,How safe is your data ... ?,2
+@nvwls,"For anyone setting this up now and experiencing a ""TypeError"" when they send messages in the chatbot- removing the document module and adding it again worked for me.",2
+@officialp283,😊,2
+@dozieweon,Nob question: How is this different from building it on Botpress?,2
+@jeroenvanharten6575,"I tried your exact workflow on windows and on mac, but never been able to get it going. On mac all i got was 'Error: Error: Error: ENOENT: no such file or directory, open'",2
+@shamicentertainment1262,"i just wish i had a skill so I could utilize chatgpt lol. faciniated by the use cases, but I just play guitar and stack shelves at a grocery store.",2
+@cyber1619,"I'm getting the error TypeError: Cannot read properties of undefined (reading 'startsWith'), anyone knows a fix.",2
+@SicilianDream,"Hi, you are very clear, but you use and refer to so many things I have never heard of. Where can I learn what I need to understand your tutorial?<br>Lars, Norway 😊",2
+@gigwebsspecialists8661,"I kept gettint this error: InsufficientQuotaError: You exceeded your current quota, please check your plan and billing details. --- Am I doing something wrong?",2
+@marcello9628,"Amazing! I added the pdf file, asked the bot ""what's the doc about?""and its answer was... ""I dont know""... i sh<a href=""http://www.youtube.com/results?search_query=%23t"">#t</a> you not. We went around in circle like that.. my favorite part? Ï added 2 documents to the flow""- his answer ""based on the given context it is not specified how many documents the person added to the flow"" like wtf",2
+@stephensuprios1896,Nice and extremely useful video Dave… how can I use a website as the source? <br>This allows for updates to immediately be available and we don’t have multiple locations of our data items.,2
+@blender_wiki,"""In 10 minutes..."" and the video is +16min... we have time warping issues here.<br>🤷🏿‍♀️<br>However Nice video. You don't need click bite title . 😉",2
+@JakubSK,"Using OpenAI is cheating. Now use your own model, and train it yourself, then serve it up yourself for inference. Go.",2
+@mrdman094081,"Liked, Sub'd. 👏👍😁",2
+@mrdman094081,After watching several times it looks like I might need to be a developer or software writer to complete this.  Are any others in this thread totally new to A.I. and have made a complete chat bot ?  Does The material loaded become public ?,2
+@Syedhussainipage,Thank you for this amazing video. Would you be kind to build an app that would refer to a given website and reply based on that site's data?,2
+@phuongnguyen5443,"I get the following error message when I try to chat to bot: Error: Error: Error: ENOENT: no such file or directory, open ''<br>Is there any idea why?",2
+@rverm1000,flowwise need s  a course for that website. alot of stuff ive never touched before.,2
+@MrAi-YT,I hear dutch accent :D,2
+@willpeeler8547,I keep getting the following error: anyone know how to solve?<br><br>PineconeError: Failed getting project name. Error: Forbidden - Invalid API key,2
+@servernajmi1354,can make whatsapp chatbot ai using this flowsei?,2
+@nickrobinson7096,"How does it deal with the structure of a PDF? For example, if I have a Table with CAS numbers in the format 1234-56-7. Usually, I can use Regex to extract these patterns however what if the text is contained in a table column and broken by a carriage return or just generally by the structure of the document? <br> e.g. <br>123-<br>45<br>-6<br>In a single column. <br><br>It seems that the text file generated will not keep this text together. This is a frequent issue I run into when extracting data.",2
+@gr8tbigtreehugger,Very cool! Many thanks!,2
+@thomas-packer-thd,"You say the 13.4K x 4 = 53.6 is correct, but it's not.  It should be 53.6K.",2
+@citylogbusinessbuddies,hii how can i take free,2
+@yousifahmed1686,"Error: Error: Error: ENOENT: no such file or directory, open , any idea how can I solve this error ?",2
+@dheerajsachdeva5735,"I am stuck at this error: docker-flowise-1  |     Error: ENOENT: no such file or directory, mkdir. Any ideas?",1
+@MarkoMarinkovic94,Bro how is this done in 10 minutes 😂,2
+@oluwaseunakinropo6318,"Hii Great video! Please I have an issue using flowise to chain with my notion database ( I embedded Google sheet in my notion) but my bot can’t answer questions about info in my google sheet, please what am I doing wrong ?",2
+@ivanmayoral3813,"🎯 Key Takeaways for quick navigation:<br><br><a href=""https://www.youtube.com/watch?v=riXpu1tHzl0"">00:00</a> 🔥 La pregunta clave es cómo integrar ChatGPT con datos de la compañía en 10 minutos.<br><a href=""https://www.youtube.com/watch?v=riXpu1tHzl0&t=148"">02:28</a> 🧩 Flowwise: Constructor visual para aplicaciones de modelos de lenguaje.<br><a href=""https://www.youtube.com/watch?v=riXpu1tHzl0&t=317"">05:17</a> ⚙️ Clonar repositorio Flowwise y usar Docker o npm para iniciar.<br><a href=""https://www.youtube.com/watch?v=riXpu1tHzl0&t=506"">08:26</a> 💬 Crear chatbot de recuperación conversacional QA con acceso a datos propios.<br><a href=""https://www.youtube.com/watch?v=riXpu1tHzl0&t=708"">11:48</a> 🌐 Explorar otras opciones en el constructor visual de Flowwise.<br><a href=""https://www.youtube.com/watch?v=riXpu1tHzl0&t=776"">12:56</a> 🐍 Usar el código generado en Python para interactuar con el chatbot.<br><a href=""https://www.youtube.com/watch?v=riXpu1tHzl0&t=884"">14:44</a> 📈 Probar la memoria del chatbot y aplicar en prototipos rápidos.<br><a href=""https://www.youtube.com/watch?v=riXpu1tHzl0&t=951"">15:51</a> 🚀 Flowwise: Ideal para prototipos ágiles de modelos de lenguaje.<br><br>Made with HARPA AI",2
+@mtuan2086,"Flowise is not stable. as I testing, put API keys, however can't work",2
+@erosr45,This is the hardest tutorial I've ever seen. It's not a step by step.,2
+@seetheworld3839,Don't know why but my pdf was of 818 pages and it wasn't working accurately as I was expecting it  to work,1
+@user-ek1tq5oo4m,"I follow you but I get this error Error: Error: Error: ENOENT: no such file or directory, open ''. Can you help me fix it?",2
+@Love-lf9ny,"Is docker free, and will the server be on while my computer is turnt off?",2
+@Esehe,"Thanks for the videos Dave! Keep them comming. Also noticed you doubled your subscribers since you made the video, congrats. Your conversational agent snitched :)",2
+@liorzioni,"hi tnx for the guide , i tried to bulid the doucument chatbot , i uplade txt file , when i asked ""what this document about "" he answer ""i dont know ""why its happened?",2
+@BikiniDesignClub,"I really like the video, and I would love to replicate this to experiment with a project I have. However, I'm very new to all the IT language and I gt stuck in the process. I was able to create the GitHub account, I have the API keys for CHAT and Pinecode.. But then it's too much for an ignorant like myself. I would love to have a tutorial like this but step by step like I'm 5! LOL Thank's anyway!",2
+@sayakbhattacharya6530,Hi Dave<br><br>I was facing issue while chatting to chatbot<br>Error - this.retriever.getRelevantDocuments is not a function<br>How to fix it ???,2
+@davedumas0,"i have an idea for a video series for you <br>""gpt-4-code interpreter vs gpt-4 with combo of plugins""",2
+@1HrOfLoFi,How has nobody else commented on how bad the audio is in this video..... Great video but the constant static/feedback on the mic is terrible.,2
+@kittentheorangetabby9676,TypeError: Cannot read properties of undefined (reading 'startsWith'),2
+@Jake_McAllister,"Hi Dave, my problem is most companies won’t be happy uploading internal documents to a external server. Do you think you could make a video where a chat bot is created but the company can keep there internal documents on their end 🔥 🙏",2
+@pathmonkofficial,Great content!,2
+@yacahumax1431,Any idea how to make this work with spanish?  I uploaded a Q & A text file but the bot only answers in english,2
+@ichbingenug3565,"As a non-coder, I am flabbergasted. This looks so easy! Thanks for sharing this. How can I turn this into a function Q&A widget on my webpage? 😳",2
+@xappscode,"How to use without Open AI API? I see some Chrome plugins doing this with ChatGPT 3.5. The API is very expensive and not worth it. More thanks for showing this tool, Success!",2
+@ryanbrown8387,Are you able to change the language that the chatbot speaks in on flowise?,2
+@vipinmalik,"Thank for the video. It's pretty cool. Well how to secure my data. I don't want to send my data to OpenAI. Is there possibly any stand-alone solution to OpenAI. Moreover, I guess OpenAI will store data only for a month",2
+@hariprasad2697,"It's great but we have to 0.002$ for 1k, so that we have assume it hit chatgpt will multiple times with multiple request which means it's takes lot of money💰",2
+@SumantXD,how to upload the txt file through code?,2
+@samus4799,"I would like to train a large language model to evaluate scientific publications, specifically regarding research, based on its adherence to the scientific method.",2
+@FirstNameLastName-fv4eu,What was this ??,2
+@yeshwanthln7621,I am not able to control myself to play around the things after seeing this video.,2
+@vinujavinduwara8552,local host is not working why?,2
+@alanrobertson3172,How to do it if you are already a computer whizz kid….,2
+@TechResearch05,I am getting an error while using flowise - ErrorWithoutStackTrace: PineconeClient: Error getting project name: SyntaxError: Unexpected token A in JSON at position 0. Tried to cross check but not sure what is going wrong. Could yo please help?,2
+@Insipidityy,What VSCode theme are you using? Looks great!,2
+@user-ey6mv7sj7v,"this is great and all, but would never be applicable in any company in the EU.",2
+@abagatelle,"Really good video. For beginners a video on how to use Git etc would help just to get grounded in the concepts of how to use VS code, download repositories and so forth would really help. Thanks for all your efforts, much appreciated.",2
+@11Brawlman,My AI is talking in Spanish for literally no reason please help.,2
+@overrideguilarte,"Hello, how are you?, very good video. I ask you a question, how did you create the embedded chat, what did you use to generate it?",2
+@soundaracse9534,Getting Blob not defined,2
+@laythqureshi5917,Do Flowise have any intellectual property over your data if you make a chatbot with them and train the model yourself?,2
+@toppu10animes,I'm getting this error everytime: ReferenceError: Blob is not defined,2
+@somethingmystical567,it keeps saying this for me: * error decoding 'ports': No port specified: :<empty> how do i fix that?,2
+@f1l4nn1m,"Hi Dave, thanks for sharing. Flowise is pretty cool as a rapid-prototyping tool, you can visually chain complex objects in just a matter of minutes. I found some cons though, which I think the devs should address. <br> - Debugging is tough. Each API-based component should have a test button (does the key work? is the deployment name correct?). Those aren't things you want to guess from pieces of text in the chat box.<br> - Coding. It's nice to have a visual interface, but at the end of the day this is just chaining function calls. It would be nice to have the Python code corresponding to a specific saved flow. So that one can customize it.<br><br>I wonder if they are interested in getting precise feedback from users to improve and prioritize features. I'd be really kin to help them build a great product.",2
+@tecion,"Great video! I couldn't find the video you mentioned at <a href=""https://www.youtube.com/watch?v=riXpu1tHzl0&t=367"">6:07</a>, would be nice if you could link to it.",2
+@youssefzaim7163,ty,2
+@PointlessPOS,And document readers that read YouTube video?,2
+@user-zt2dj4rl6d,An addition to the setup if (a) you are running on Apple silicon (i.e. M1 or M2) and (b) you want to use Docker compose.<br>When I first went to the docker setup and issued the command <br>  $ docker-compose up -d<br>It the docker container for flowise failed to start because the platform was not specified.<br>The solution is to add the platform specification line to `docker-compose.yml` immediately after the line `image: flowiseai/flowise`<br>My file now looks like this:<br><br>```<br>version: '3.1'<br><br>services:<br>    flowise:<br>        image: flowiseai/flowise<br>        platform: linux/amd64<br>…<br>```,1
+@alexiki,Video is 16 minutes tho XD,2
+@johnathanmagesh4521,Bro can I copy content of my youtube channel,2
+@almahdibakkali8007,Can you add custom prompts? <br>What happens when you ask unrelated questions ?,1
+@Earthvssuna,Is it safe in terms of the companies data or will another model use the data to train?  For exmaple over the open ai API?,2
+@tejnium5024,"hey does anyone tried MediaXchrome extension? that works on chatGPT , Bard and BIng AI chat??",2
