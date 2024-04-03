@@ -1,3 +1,8 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    
+}
 body{
     background-image: url("Assets/bg.jpg");
     background-size: cover;
@@ -11,18 +16,23 @@ body{
     
 }
 .mainDiv {
+    /* position: relative; */
     width: 30%;
     margin: 30px auto auto auto;
-     /* background-color: #ffffff; */
-    padding: 20px;
+    /* background-color: rgb(255,255,255,0.04); */
+    backdrop-filter: blur(5px);
+    padding: 20px 10px 40px 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* height: calc(100vh - 400px); */
-    height: 55%;
+    height: fit-content;
     border-radius: 10px;
-    box-shadow: 0 0 10px;/
+    box-shadow: 0 0 15px;/
     text-align: center;
+    /* text-align: center; */
+    width: 30%;
 }
 .logo{
     margin-top: 40px;
@@ -30,40 +40,104 @@ body{
     width:150px;
     border-radius: 50%;
 }
-
-.formDiv {
-    text-align: center;
-    width: 100%;
-    
-    
-    
-}
 h1 {
+    text-shadow: 1px 1px 10px black;
+    /* background-color: rgba(255,255,255,0.1); */
+    /* box-shadow: 0px 0px 10px rgb(46, 43, 43); */
+    backdrop-filter: blur(5px);
+    padding: 2px 20%;
+    border-radius: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-
-input[type="text"],
-input[type="password"]{
+.log-sign-input{
+    position: relative;
+    /* align-items: center; */
+    width: 100%;
+}
+.log-sign-input input{
+    outline: none;
     display: block;
-    margin: 10px auto;
-    padding: 5px;
-    width: 55%;
+    margin: 5px auto;
+    padding: 15px;
+    width: 75%;
     margin-bottom: 15px;
     font-family: Arial, Helvetica, sans-serif;
     background: transparent;
     color: white;
+    border-radius: 30px;
+    position: relative;
+    border: 1px solid white;
+    /* box-sizing: border-box; */
     
 }
 button{
-    width: 75px;
-    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 0.5em 1em;
+    border: 5px solid rgb(2, 2, 28);
+    border-radius: 15px;
     background: rgb(97, 97, 180);
-    border-radius: 10px;
-    font-size : 10px;
+    font-weight: 600;
+    box-shadow: 0px 10px 20px black;
+    transition: 0.3s;
+}
+h1{
+    font-size: 30px;
 }
 a{
+    font-size: 15px;
     color: white;
-    
+    transition: 0.3s;  
+}
+a:hover{
+    text-shadow: 0px 8px 10px black;
+    transform: translateY(-2px);
+}
+a:active{
+    transform: scale(0.98);
+}
+label{
+    /* background-color: chartreuse; */
+    /* width: fit-content; */
+    /* text-align: left; */
+    color: rgb(132, 122, 122);
+    /* padding: 0px 50%; */
+    top: 25%;
+    transition: 0.4s;
+    /* transform: translateY(-40%); */
+    position: absolute;
+    left: 15%;
+    /* position: ; */
+     /*Adjust this value as needed*/
+    /* font-size: 12px; Adjust the font size as needed */
+}
+.log-sign-input input:hover,
+.log-sign-input input:focus,
+.log-sign-input input:valid{
+border-color: chartreuse;
+}
+label:hover,
+.log-sign-input input:hover ~ label,
+.log-sign-input input:focus ~ label,
+.log-sign-input input:valid ~ label{
+transform: translate(-20%,-110%);
+color: navy;
+background-color: chartreuse;
+border-radius: 10px;
+padding: 2px 10px;
+font-size: 12px;
+}
+button:hover{
+    background: rgb(2, 2, 28);
+    color: rgb(97, 97, 180);
+    transform: translateY(-12px);
+    box-shadow: 0px 10px 20px black;
+
+}
+
+button:active{
+    transform: scale(0.95);
 }

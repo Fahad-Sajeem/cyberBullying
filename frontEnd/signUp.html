@@ -4,31 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="signUp.css">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="login.css">
     <script type="module" src="register.js" defer></script>
 </head>
 
 <body>
     <div>
-        <img class="logo" src="Assets/logo.jpg" alt="logo"></div>
-    <div>
+        <img class="logo" src="Assets/logo.jpg" alt="logo">
+    </div>
     <div class="mainDiv">
        
-        <div class="formDiv">
+        <!-- <div class="formDiv"> -->
 
 
             <h1>SIGN UP</h1>
-            <form action="">
-                <input type="text"  id="name" placeholder="Name">
-                <input type="text" id="email" placeholder="E-mail">
-                <input type="password" id="password" placeholder="Password">
-                <input type="password" id="password2" placeholder="Re-enter Password ">
-                <button type="SUBMIT"  id="signUpButton">SIGN UP</button><br><br>
+            <!-- <form action=""> -->
+                <div class="log-sign-input">
+                    <input type="text"  id="name" required="required">
+                    <label>Name</label>
+                </div>
+                <div class="log-sign-input">
+                    <input type="text" id="email" required="required">
+                    <label>E-mail</label>
+                </div>
+                <label>Name</label>
+                <div>
+                    <input type="password" id="password" required="required">
+                    <label>Password</label>
+                </div>
+                <div class="log-sign-input">
+                    <input type="password" id="password2" required="required">
+                    <label>Re-Enter Password</label>
+                </div>
+                <button type="SUBMIT" id="signUpButton">SIGN UP</button><br><br>
                 <a href="login.html">Already have an account?</a>
-            </form>
+            <!-- </form> -->
 
-        </div>
+        <!-- </div> -->
     </div>
 
 </body>
