@@ -4,33 +4,50 @@
     
 }
 body{
-    background-image: url("Assets/bg.jpg");
+    background-image: url("../Assets/bg.jpg");
     background-size: cover;
     background-repeat: repeat-y;
     background-attachment: scroll;
     margin: 0px;
     /* display: flex; */
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
     height: 100vh;
     
 }
 .mainDiv {
+    /* position: relative; */
     width: 25%;
-    margin: 10px auto auto auto;
-    /* background-color: #ffffff; */
+    margin: 30px auto auto auto;
+    /* background-color: rgb(255,255,255,0.04); */
     backdrop-filter: blur(5px);
-    padding: 15px;
+    padding: 20px 10px 40px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: calc(100vh - 400px); */
-    /* height: 60%; */
+    /* height: 50%; */
     height: fit-content;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0 0 20px;
-    margin-top: 30px;
+    text-align: center;
+    /* text-align: center; */
+}
+.logo{
+    margin-top: 40px;
+    box-shadow: 0px 0px 30px ;
+    width:150px;
+    border-radius: 50%;
+}
+h1 {
+    text-shadow: 1px 1px 10px black;
+    /* background-color: rgba(255,255,255,0.1); */
+    /* box-shadow: 0px 0px 10px rgb(46, 43, 43); */
+    backdrop-filter: blur(5px);
+    padding: 2px 20%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
 }
 .log-sign-input{
     position: relative;
@@ -44,6 +61,7 @@ body{
     padding: 15px;
     width: 75%;
     margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     background: transparent;
     color: white;
     border-radius: 30px;
@@ -52,50 +70,9 @@ body{
     /* box-sizing: border-box; */
     
 }
-.logo{
-    margin-top: 40px;
-    box-shadow: 0px 0px 30px ;
-    width:150px;
-    border-radius: 50%;
-}
-
-.formDiv {
-    text-align: center;
-        /* display: block; */
-        width: 100%;
-}
-h1 {
-    text-shadow: 1px 1px 10px black;
-    /* background-color: rgba(255,255,255,0.1); */
-    /* box-shadow: 0px 0px 10px rgb(46, 43, 43); */
-    backdrop-filter: blur(5px);
-    padding: 2px 20%;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-}
-
-/* input[type="text"],
-input[type="password"]{
-    display: block;
-    margin: 10px auto;
-    padding: 5px;
-    width: 55%;
-    align-items: center;
-    margin-bottom: 15px;
-    background: transparent;
-    color: white;
-} */
-/* button{
-    width: 75px;
-    height: 30px;
-    background: rgb(97, 97, 180);
-    border-radius: 10px;
-    font-size : 10px;
-} */
 button{
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 18px;
     padding: 0.5em 1em;
     border: 5px solid rgb(2, 2, 28);
@@ -105,8 +82,11 @@ button{
     box-shadow: 0px 10px 20px black;
     transition: 0.3s;
 }
+h1{
+    font-size: 30px;
+}
 a{
-    margin-top: -25px;
+    margin-top: -20px;
     font-size: 15px;
     color: white;
     transition: 0.3s;  
@@ -118,7 +98,6 @@ a:hover{
 a:active{
     transform: scale(0.98);
 }
-
 label{
     /* background-color: chartreuse; */
     /* width: fit-content; */

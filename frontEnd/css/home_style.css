@@ -10,7 +10,7 @@ p{
     letter-spacing: 1px;
 }
 body{
-    background-image: url("Assets/bg.jpg");
+    background-image: url("../Assets/bg.jpg");
     background-size: cover;
     background-repeat: repeat-y;
     background-attachment: scroll;
