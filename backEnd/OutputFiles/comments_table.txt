@@ -1,0 +1,5 @@
+Username	Comment	Offensive
+@micalbozz156	Unfortunately doesn´t work for me. It always responds with "Hmm, I´m not sure".	Offensive
+@seetheworld3839	Don't know why but my pdf was of 818 pages and it wasn't working accurately as I was expecting it  to work	Offensive
+@user-ek1tq5oo4m	I follow you but I get this error Error: Error: Error: ENOENT: no such file or directory, open ''. Can you help me fix it?	Hate
+@almahdibakkali8007	Can you add custom prompts? <br>What happens when you ask unrelated questions ?	Offensive

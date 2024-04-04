@@ -1,5 +1,6 @@
 Author,Comment,Predicted_Class
 @daveebbelaar,"👉🏻Join my FREE community if you want to learn more about AI: <a href=""https://bit.ly/data-alchemy"">https://bit.ly/data-alchemy</a>",2
+@AIEntusiast_,"multiple pdf, docs at same time ?",2
 @kobvel,What about the data privacy? Where does your document go?,2
 @micalbozz156,"Unfortunately doesn´t work for me. It always responds with ""Hmm, I´m not sure"".",1
 @senorchavo5572,I need troubleshooting assistance.  I csn get everything connected...independently openai will respond.  When i link pinecone...it will receive the vectors from the pdf when connected...but he dumb ass assistant when asked about the document says hmmm i dont know!  😅  is ir the splitter overlap...its a larger pdf...i do legal work so its case law in trying to load and ask questions,1
@@ -98,4 +99,3 @@ Author,Comment,Predicted_Class
 @johnathanmagesh4521,Bro can I copy content of my youtube channel,2
 @almahdibakkali8007,Can you add custom prompts? <br>What happens when you ask unrelated questions ?,1
 @Earthvssuna,Is it safe in terms of the companies data or will another model use the data to train?  For exmaple over the open ai API?,2
-@tejnium5024,"hey does anyone tried MediaXchrome extension? that works on chatGPT , Bard and BIng AI chat??",2
