@@ -4,6 +4,7 @@ import torch.nn.functional as F
 import os
 import pandas as pd
 import html
+import re
 
 cwd = os.getcwd()
 
@@ -40,11 +41,18 @@ def predict(text):
 
     return predicted_class.cpu().numpy()  # Move back to CPU if on GPU
 
+def remove_tags(text):
+    # Regular expression to match anything between < and >
+    tag_re = re.compile(r'<.*?>')
+    # Replace tags with an empty string
+    return tag_re.sub('', text)
+
 # package change
 def predict_comments(df):
     # Assuming df is your DataFrame and has a 'Comment' column
     predictions = []
     df['Comment'] = df['Comment'].apply(html.unescape)
+    df['Comment'] = df['Comment'].apply(remove_tags)
     for text in df['Comment']:
         predicted_class = predict(text)  
         predictions.append(predicted_class[0])
