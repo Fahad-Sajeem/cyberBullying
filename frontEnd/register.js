@@ -30,20 +30,31 @@ signup.addEventListener("click", function (event) {
   const password = document.getElementById("password").value;
   const password2 = document.getElementById("password2").value;
 
+  if (password !== password2) {
+    alert("Passwords do not match.");
+    return; // Stop the function from proceeding
+  }
+  
   createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
       // Signed up
       const user = userCredential.user;
 
-      setDoc(doc(db, "users", user.uid), {
+      return setDoc(doc(db, "users", user.uid), {
         name: name,
         email: email,
       });
 
-      alert("Creating Account...");
-      window.location.href = "homePage.html";
+      // alert("Creating Account...");
+      // window.location.href = "homePage.html";
 
     })
+    .then(() => {
+      // After setting document
+      alert("Account created successfully.");
+      window.location.href = "homePage.html";
+    })
+
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
