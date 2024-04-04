@@ -3,6 +3,7 @@ import {
   getAuth,
   createUserWithEmailAndPassword,
 } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
+import {getFirestore, setDoc, doc } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -17,6 +18,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
+const db = getFirestore(app);
 
 const signup = document.getElementById("signUpButton");
 signup.addEventListener("click", function (event) {
@@ -32,14 +34,19 @@ signup.addEventListener("click", function (event) {
     .then((userCredential) => {
       // Signed up
       const user = userCredential.user;
+
+      setDoc(doc(db, "users", user.uid), {
+        name: name,
+        email: email,
+      });
+
       alert("Creating Account...");
       window.location.href = "homePage.html";
-      // ...
+
     })
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
       alert(errorMessage);
-      // ..
     });
 });
