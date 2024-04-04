@@ -23,7 +23,7 @@ document.addEventListener("click", function(event) {
   }
  });
  document.getElementById("previewbtn").addEventListener("click", async function() {
-  const url = 'Assets/usecase.pdf'; // Replace with the actual path to your PDF
+  const url = '../Assets/usecase.pdf'; // Replace with the actual path to your PDF
   const response = await fetch(url);
   const blob = await response.blob();
   const objectURL = URL.createObjectURL(blob);
