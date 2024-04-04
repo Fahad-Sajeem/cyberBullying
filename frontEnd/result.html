@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -37,19 +36,27 @@
         <div>
          <p>
             We're thrilled to present the culmination of our efforts—the eagerly awaited completion 
-            of your comprehensive report. Brace yourself for a captivating dive into the insights, 
-            showcasing the fruits of meticulous analysis and dedication. Your report, a testament to our
-            commitment, is not just ready—it's a compelling narrative waiting to unfold, providing valuable
-            perspectives and actionable intelligence. Get ready to be impressed!</p>   
+            of your comprehensive report. </p>   
         </div>
-        <div>
-        <button class="resultbtn" id="previewbtn" type="submit">Preview</button></div>
-        <div><button class="resultbtn" id="downloadbtn" type="submit">Download Report</button></div>
+        </div>
+        <div class="info">
+        <div class="pdf">
+            <!-- <div> -->
+                <embed src="Assets/usecase.pdf" type="application/pdf"/>
+            <!-- </div> -->
+        <div class="pdf-button">
+        <button class="resultbtn" id="previewbtn" type="submit">Preview</button>
+        <a href="Assets/usecase.pdf" download="Report.pdf" class="resultbtn" id="downloadbtn">Download Report</a>
+        </div>
+        </div>
+        </div>
+        <div class="centrediv">
         <div>
             <p>Click below to take action! Your click makes a difference in 
-            driving positive change. Let's make it happen—click now!</p>
+            driving positive change.</p>
         </div>
         <div> <button class="resultbtn" id="sendtobtn" type="submit">Send to Authorities</button></div>
+        
     </div>
     <script src="side.js"></script>
 
