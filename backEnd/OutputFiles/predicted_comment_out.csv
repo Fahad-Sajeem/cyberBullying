@@ -1,101 +1,101 @@
 Author,Comment,Predicted_Class
-@daveebbelaar,👉🏻Join my FREE community if you want to learn more about AI: https://bit.ly/data-alchemy,2
-@AIEntusiast_,"multiple pdf, docs at same time ?",2
-@kobvel,What about the data privacy? Where does your document go?,2
-@micalbozz156,"Unfortunately doesn´t work for me. It always responds with ""Hmm, I´m not sure"".",1
-@senorchavo5572,I need troubleshooting assistance.  I csn get everything connected...independently openai will respond.  When i link pinecone...it will receive the vectors from the pdf when connected...but he dumb ass assistant when asked about the document says hmmm i dont know!  😅  is ir the splitter overlap...its a larger pdf...i do legal work so its case law in trying to load and ask questions,1
-@jamminrebel3614,This 👏 is 👏 freaking 👏 awesome. 👏love you.,2
-@marcuskirsch4128,You know your stuff. But  I am struggling to follow this to replicate its a lot of detail.,2
-@MattGadi,"Hi, many thanks for the video. How did you prepare the txt input file? Do you have a video or link to understand the contend and how to prepare it?Thanks",2
-@xugefu,Thanks!,2
-@sanderschat,"funny to read all them comments from 'non-coders', thinking they too finally can add cool chatbots to websites for their clients... sure...It is the same like AI is producing some crappy music, and then they say 'Ah, me as a non-musician can finnaly create music and sell it to the world'... sure....",1
-@mohsenghafari7652,hi. please help me. how to create custom model from many pdfs in Persian language? tank you.,2
-@safetime100,Thanks ❤,2
-@texsearch,10 minutes if you have quite a bit of experience and already have accounts set up.  Definitely not 10 minutes for a newb.,2
-@iGuide_net,How much do you have to pay per search to the GPT provider? One metric i saw had chatgpt-4 at 30 cents per search.,2
-@josh-cc9oy,"i want to give one like 3000 academic papers and make it able to be queried, is that too big?",2
-@gabriel-gr,"Very cool, thanks! I tried to do the same with some (large-ish) PDF's but I'm getting `InsufficientQuotaError: 429` from OpenAI ;-(",2
-@thejordankeyes,This is pretty cool. How could we use this to chat with whole databases full of records instead of just a single file at a time?,2
-@nilsbuer,Very cool video. Content and video quality,2
-@lancerkind,"Copy/pasting the ""connect credential""s is different now than how the video shows. In the Flowise UI, you can no longer copy/paste the credentials. You need to click on the Connect Credential field and select ""create new"" which opens a popup window. In that window, put in your username and then finally you can copy/paste the API key.",2
-@Sergio-rq2mm,"Having watched your other videos, I was hoping that you might revisit this topic using the facebook vector tool and PGvector. Is that something you might considering?",2
-@GigaChadL337,Let third party handle your company's data other than google aws or MS? No thanks,2
-@emanuelecorbellini5110,"How big of a document could I use here to then ask questions? For example, could I take real json formatted event data from a videogame with 100k maus and then ask the bot ""What's the retention?"" Or ask it ""what are the most used units in the game?""",2
-@Ricocase,Is it private?  Langchain isn't private.,2
-@AbdelrahmanEmad-mm2xs,"thanks for this great tutorial, am frontend developer so how can i build SAAS on this?",2
-@vadimzubakhin1589,This is so impressive. Thank you.,2
-@jmay3230,How safe is your data ... ?,2
-@nvwls,"For anyone setting this up now and experiencing a ""TypeError"" when they send messages in the chatbot- removing the document module and adding it again worked for me.",2
-@officialp283,😊,2
-@dozieweon,Nob question: How is this different from building it on Botpress?,2
-@jeroenvanharten6575,"I tried your exact workflow on windows and on mac, but never been able to get it going. On mac all i got was 'Error: Error: Error: ENOENT: no such file or directory, open'",2
-@shamicentertainment1262,"i just wish i had a skill so I could utilize chatgpt lol. faciniated by the use cases, but I just play guitar and stack shelves at a grocery store.",2
-@cyber1619,"I'm getting the error TypeError: Cannot read properties of undefined (reading 'startsWith'), anyone knows a fix.",2
-@SicilianDream,"Hi, you are very clear, but you use and refer to so many things I have never heard of. Where can I learn what I need to understand your tutorial?Lars, Norway 😊",2
-@gigwebsspecialists8661,"I kept gettint this error: InsufficientQuotaError: You exceeded your current quota, please check your plan and billing details. --- Am I doing something wrong?",2
-@marcello9628,"Amazing! I added the pdf file, asked the bot ""what's the doc about?""and its answer was... ""I dont know""... i sh#t you not. We went around in circle like that.. my favorite part? Ï added 2 documents to the flow""- his answer ""based on the given context it is not specified how many documents the person added to the flow"" like wtf",2
-@stephensuprios1896,Nice and extremely useful video Dave… how can I use a website as the source? This allows for updates to immediately be available and we don’t have multiple locations of our data items.,2
-@blender_wiki,"""In 10 minutes..."" and the video is +16min... we have time warping issues here.🤷🏿‍♀️However Nice video. You don't need click bite title . 😉",2
-@JakubSK,"Using OpenAI is cheating. Now use your own model, and train it yourself, then serve it up yourself for inference. Go.",2
-@mrdman094081,"Liked, Sub'd. 👏👍😁",2
-@mrdman094081,After watching several times it looks like I might need to be a developer or software writer to complete this.  Are any others in this thread totally new to A.I. and have made a complete chat bot ?  Does The material loaded become public ?,2
-@Syedhussainipage,Thank you for this amazing video. Would you be kind to build an app that would refer to a given website and reply based on that site's data?,2
-@phuongnguyen5443,"I get the following error message when I try to chat to bot: Error: Error: Error: ENOENT: no such file or directory, open ''Is there any idea why?",2
-@rverm1000,flowwise need s  a course for that website. alot of stuff ive never touched before.,2
-@MrAi-YT,I hear dutch accent :D,2
-@willpeeler8547,I keep getting the following error: anyone know how to solve?PineconeError: Failed getting project name. Error: Forbidden - Invalid API key,2
-@servernajmi1354,can make whatsapp chatbot ai using this flowsei?,2
-@nickrobinson7096,"How does it deal with the structure of a PDF? For example, if I have a Table with CAS numbers in the format 1234-56-7. Usually, I can use Regex to extract these patterns however what if the text is contained in a table column and broken by a carriage return or just generally by the structure of the document?  e.g. 123-45-6In a single column. It seems that the text file generated will not keep this text together. This is a frequent issue I run into when extracting data.",2
-@gr8tbigtreehugger,Very cool! Many thanks!,2
-@thomas-packer-thd,"You say the 13.4K x 4 = 53.6 is correct, but it's not.  It should be 53.6K.",2
-@citylogbusinessbuddies,hii how can i take free,2
-@yousifahmed1686,"Error: Error: Error: ENOENT: no such file or directory, open , any idea how can I solve this error ?",2
-@dheerajsachdeva5735,"I am stuck at this error: docker-flowise-1  |     Error: ENOENT: no such file or directory, mkdir. Any ideas?",1
-@MarkoMarinkovic94,Bro how is this done in 10 minutes 😂,2
-@oluwaseunakinropo6318,"Hii Great video! Please I have an issue using flowise to chain with my notion database ( I embedded Google sheet in my notion) but my bot can’t answer questions about info in my google sheet, please what am I doing wrong ?",2
-@ivanmayoral3813,🎯 Key Takeaways for quick navigation:00:00 🔥 La pregunta clave es cómo integrar ChatGPT con datos de la compañía en 10 minutos.02:28 🧩 Flowwise: Constructor visual para aplicaciones de modelos de lenguaje.05:17 ⚙️ Clonar repositorio Flowwise y usar Docker o npm para iniciar.08:26 💬 Crear chatbot de recuperación conversacional QA con acceso a datos propios.11:48 🌐 Explorar otras opciones en el constructor visual de Flowwise.12:56 🐍 Usar el código generado en Python para interactuar con el chatbot.14:44 📈 Probar la memoria del chatbot y aplicar en prototipos rápidos.15:51 🚀 Flowwise: Ideal para prototipos ágiles de modelos de lenguaje.Made with HARPA AI,2
-@mtuan2086,"Flowise is not stable. as I testing, put API keys, however can't work",2
-@erosr45,This is the hardest tutorial I've ever seen. It's not a step by step.,2
-@seetheworld3839,Don't know why but my pdf was of 818 pages and it wasn't working accurately as I was expecting it  to work,1
-@user-ek1tq5oo4m,"I follow you but I get this error Error: Error: Error: ENOENT: no such file or directory, open ''. Can you help me fix it?",2
-@Love-lf9ny,"Is docker free, and will the server be on while my computer is turnt off?",2
-@Esehe,"Thanks for the videos Dave! Keep them comming. Also noticed you doubled your subscribers since you made the video, congrats. Your conversational agent snitched :)",2
-@liorzioni,"hi tnx for the guide , i tried to bulid the doucument chatbot , i uplade txt file , when i asked ""what this document about "" he answer ""i dont know ""why its happened?",2
-@BikiniDesignClub,"I really like the video, and I would love to replicate this to experiment with a project I have. However, I'm very new to all the IT language and I gt stuck in the process. I was able to create the GitHub account, I have the API keys for CHAT and Pinecode.. But then it's too much for an ignorant like myself. I would love to have a tutorial like this but step by step like I'm 5! LOL Thank's anyway!",2
-@sayakbhattacharya6530,Hi DaveI was facing issue while chatting to chatbotError - this.retriever.getRelevantDocuments is not a functionHow to fix it ???,2
-@davedumas0,"i have an idea for a video series for you ""gpt-4-code interpreter vs gpt-4 with combo of plugins""",1
-@1HrOfLoFi,How has nobody else commented on how bad the audio is in this video..... Great video but the constant static/feedback on the mic is terrible.,2
-@kittentheorangetabby9676,TypeError: Cannot read properties of undefined (reading 'startsWith'),2
-@Jake_McAllister,"Hi Dave, my problem is most companies won’t be happy uploading internal documents to a external server. Do you think you could make a video where a chat bot is created but the company can keep there internal documents on their end 🔥 🙏",2
-@pathmonkofficial,Great content!,2
-@yacahumax1431,Any idea how to make this work with spanish?  I uploaded a Q & A text file but the bot only answers in english,2
-@ichbingenug3565,"As a non-coder, I am flabbergasted. This looks so easy! Thanks for sharing this. How can I turn this into a function Q&A widget on my webpage? 😳",2
-@xappscode,"How to use without Open AI API? I see some Chrome plugins doing this with ChatGPT 3.5. The API is very expensive and not worth it. More thanks for showing this tool, Success!",2
-@ryanbrown8387,Are you able to change the language that the chatbot speaks in on flowise?,2
-@vipinmalik,"Thank for the video. It's pretty cool. Well how to secure my data. I don't want to send my data to OpenAI. Is there possibly any stand-alone solution to OpenAI. Moreover, I guess OpenAI will store data only for a month",2
-@hariprasad2697,"It's great but we have to 0.002$ for 1k, so that we have assume it hit chatgpt will multiple times with multiple request which means it's takes lot of money💰",2
-@SumantXD,how to upload the txt file through code?,2
-@samus4799,"I would like to train a large language model to evaluate scientific publications, specifically regarding research, based on its adherence to the scientific method.",2
-@FirstNameLastName-fv4eu,What was this ??,2
-@yeshwanthln7621,I am not able to control myself to play around the things after seeing this video.,2
-@vinujavinduwara8552,local host is not working why?,2
-@alanrobertson3172,How to do it if you are already a computer whizz kid….,2
-@TechResearch05,I am getting an error while using flowise - ErrorWithoutStackTrace: PineconeClient: Error getting project name: SyntaxError: Unexpected token A in JSON at position 0. Tried to cross check but not sure what is going wrong. Could yo please help?,2
-@Insipidityy,What VSCode theme are you using? Looks great!,2
-@user-ey6mv7sj7v,"this is great and all, but would never be applicable in any company in the EU.",2
-@abagatelle,"Really good video. For beginners a video on how to use Git etc would help just to get grounded in the concepts of how to use VS code, download repositories and so forth would really help. Thanks for all your efforts, much appreciated.",2
-@11Brawlman,My AI is talking in Spanish for literally no reason please help.,2
-@overrideguilarte,"Hello, how are you?, very good video. I ask you a question, how did you create the embedded chat, what did you use to generate it?",2
-@soundaracse9534,Getting Blob not defined,2
-@laythqureshi5917,Do Flowise have any intellectual property over your data if you make a chatbot with them and train the model yourself?,2
-@toppu10animes,I'm getting this error everytime: ReferenceError: Blob is not defined,2
-@somethingmystical567,it keeps saying this for me: * error decoding 'ports': No port specified: : how do i fix that?,2
-@f1l4nn1m,"Hi Dave, thanks for sharing. Flowise is pretty cool as a rapid-prototyping tool, you can visually chain complex objects in just a matter of minutes. I found some cons though, which I think the devs should address.  - Debugging is tough. Each API-based component should have a test button (does the key work? is the deployment name correct?). Those aren't things you want to guess from pieces of text in the chat box. - Coding. It's nice to have a visual interface, but at the end of the day this is just chaining function calls. It would be nice to have the Python code corresponding to a specific saved flow. So that one can customize it.I wonder if they are interested in getting precise feedback from users to improve and prioritize features. I'd be really kin to help them build a great product.",2
-@tecion,"Great video! I couldn't find the video you mentioned at 6:07, would be nice if you could link to it.",2
-@youssefzaim7163,ty,2
-@PointlessPOS,And document readers that read YouTube video?,2
-@user-zt2dj4rl6d,An addition to the setup if (a) you are running on Apple silicon (i.e. M1 or M2) and (b) you want to use Docker compose.When I first went to the docker setup and issued the command   $ docker-compose up -dIt the docker container for flowise failed to start because the platform was not specified.The solution is to add the platform specification line to `docker-compose.yml` immediately after the line `image: flowiseai/flowise`My file now looks like this:```version: '3.1'services:    flowise:        image: flowiseai/flowise        platform: linux/amd64…```,2
-@alexiki,Video is 16 minutes tho XD,2
-@johnathanmagesh4521,Bro can I copy content of my youtube channel,2
-@almahdibakkali8007,Can you add custom prompts? What happens when you ask unrelated questions ?,2
-@Earthvssuna,Is it safe in terms of the companies data or will another model use the data to train?  For exmaple over the open ai API?,2
+@user-hu1ub8yh5p,A 😂😂😂😂😂😂😂hahahahahahaha😂😂,2
+@user-rg2tg3bm4t,Гей,2
+@user-rg2tg3bm4t,Красиво,2
+@user-hg4gd8uz5p,noooooooooooooooooooooo😡😡😡😡😡😡,2
+@user-hg4gd8uz5p,💀👆,2
+@spideyman9553,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=306"">5:06</a> got me dying",2
+@letoshiaabell1273,"Hahahahahah <a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=702"">11:42</a>",2
+@letoshiaabell1273,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=643"">10:43</a> I exploded",2
+@smartkidslearningcentre-nu6ch,I am seven😂😂😂😂😂😂,2
+@diegoguevara279,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=297"">4:57</a> I cried of laughter:D",2
+@user-ep9fq2lx2y,😅😅😅😅😅😅,2
+@sabikunnahar6645,5;50 got me diening 🤣🤣🤣🤣🤣🤣🤣🤣🤣,2
+@user-gd9bp8su6f,Hi,2
+@bedantadas31,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=582"">9:42</a> 😂 lol",2
+@dimitarkostadinov7811,Why every one hate you 😭😭😭,2
+@user-uv3ek4fk9w,I KNOW HE'S MAD BUT HE CAN'T LITERALLY A BAD WORD LIKE ONE TRILLION,2
+@NivanthNakarmi,Ahahaha,2
+@AbdulXd-iz6jb,Are are are are are are are are are are are are are are are are are are are are are are are are are are are are are are are are are,2
+@turbo_playz1542,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=452"">7:32</a>  i went rolling to roller skate park without roller skates",2
+@arinaarina8880,Ishowspeed your nose is normal don’t think about the other people do not care what they say about your nose ❤❤❤❤,2
+@arinaarina8880,One day my comment will be viral😢😢😢😢😢😢😢😢😢😢😢😢😢😊😊,2
+@arinaarina8880,Bark bark,2
+@Dominatori,😂ძალიან სასაცილო ხარ 😂😂😂😂😂ყლეო😂😂😂😂დდდდდდდდდდდდდდდდდდ😂😂😂😂😂😂😂😂😂😂😂,2
+@MyAlma75,Bro can you stop sitting on your desk please and stop looking at your it disgusting arts now just leave it alone are labour I don't like Barnardo I like Messi Siri I like it Siri so do not say about that 🤬🤬,2
+@reameiluh3363,Haha Ronaldo siuuu,2
+@cobra_dc,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=222"">3:42</a> Goody ah Tupac",2
+@ishowmonkey6451,this was so inspirational,2
+@Croissant009,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=437"">7:17</a> thats chile",2
+@meganmiller7639,Yes. It. Is,2
+@user-xj2nh1hy5n,Messi is better then ronaldo,2
+@PardeepSingh-iy7fi,ITS TRUE YOUR NOSE IS FU*<b>*</b> BIG MAN <br><br>PEOPLE WHO AGREE 👍 💯 <br>👇,1
+@justsmile2610,HAHAHAH<br>I LOVE THESE I I SHOOW MEAT VIDEOS,2
+@user-eb7pl1dg1p,ЕМА,2
+@art-xs5gq,❤❤❤❤❤❤❤,2
+@fz_tge8865,big ass nostrils,1
+@user-wi4ox7ju2w,Jho,2
+@user-tt7fv5tn7h,XD,2
+@TravelBoastAndCastleLegend,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=443"">7:23</a> chile",2
+@raphaelpostigo6624,Ahhhhhhhhhh the f*<b>******</b>,1
+@stephanieclosson687,People are so rude but I’m a big fan 😊,2
+@joshv5096,Usually have boogers in your nose that's kind of nasty but your nose is big enough to hear it now and subscribes it now,2
+@joshv5096,Vanna girl I love you r a little more to hear that you you you deserve u y are the best exactly that is you and we can and we can comment so don't even dare talk back to us like we didn't even do anything we're just having some trouble like drawing things so don't get like mad,2
+@user-kt5cm1gu3p,What is wrong with you?,2
+@user-sw4ln4jr9u,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=806"">13:26</a> Lol ishowspeed😂",2
+@VelickaSergeeva,Why are you always Barking,2
+@elizabethbentley4117,Try to find The word the in the other Comment,2
+@tamasjerome1750,No I draw that picture,2
+@tamasjerome1750,"I shall <a href=""http://speak.you/"">speak.You</a> know some of those pictures that are so good or fake",2
+@Emptyfiledrools,i saw some people in the comments saying i show meat,2
+@baparawinrawin6246,Key kau disini koin Lego❤❤❤❤❤❤❤🎉,2
+@user-fv5bd2kl1i,1:3 ishospeed,2
+@MrHitman120,What is your nose look like Pipes,2
+@nikol9149,記入です。女ジャパニーズ,2
+@nikol9149,ウィアーライクザットワズ,2
+@andy-beatricestephen-matti441,😅mm,2
+@ivanafarias2369,Messi messi messi messi messi messi,2
+@pie31487,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=339"">5:39</a> OML I COULDN'T STOP LAUGHING THIS IS SO HILARIOUS 💀💀💀",2
+@user-px7fz4kf3j,Speed video babalalada😂😂😂😂,2
+@violetaasllani5504,Ishoo spid,2
+@boitumelopogiso2165,If you realise some of these pictures are printed😂,2
+@leoneljerwinbitagan6546,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=336"">5:36</a> He's Nose 😂😂😂😂😂😂😂",2
+@Squeak1234,Türk varmı,2
+@Qounterman,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=444"">7:24</a> caseoh moment",2
+@Qounterman,"Ishowfeet <a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=302"">5:02</a>",2
+@ElvenWarriorFan,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=292"">4:52</a> :))))",2
+@Kskskskosowpw,Bro what the [__] what is that big nose [__],2
+@user-ou8ws4qo6t,he is not from russia,2
+@Stinger_vr9,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=290"">4:50</a> why bro showing his feet",2
+@davitdolbaia1220,😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂ooo my godddd,2
+@THEREALXSTEP,i almost die at laughing L,2
+@MDWHiTFFking,🥴🥴🥴🥴,2
+@DOORS720,😊21<br>Sza,2
+@DOORS720,Спит на первом месте Привет,2
+@DOORS720,I Show Speed крутой ладно,2
+@stanislavzaytsev3482,ничего не понял,2
+@JermaineandJasminetheYoutubers,Nah,2
+@chebettuindo784,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=135"">2:15</a> was so funny",2
+@tenikavann6984,"Hi, my name is dog day. Hi, my name is cat nap. Hi, my name is happy hopscotch. Hi, my name is piggy piggy let’s eat. Hi, I’m craft corn. Let’s paint. Hi Ld the all of the critters.",2
+@user-ik7it4kj3q,😯,2
+@runjungogoi5005,...,2
+@user-rh7bc4ln3o,SOS,2
+@user-yq6uf4ce5s,"At <a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=337"">5:37</a> is umnail",2
+@joelcaingles2815,Yes repeat looks like that,2
+@joelcaingles2815,hahahaha😂,2
+@AngeloKenthGranada-jg6wd,Bro the thumbnail😂,2
+@Full978,Hiiiiii😂😂😂😂😂,2
+@Full978,Фууууу😂😂😂😂😂,2
+@RefrideratorGaming,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=434"">7:14</a> that ain’t Russia lol",2
+@jokubas-nx7gn,i love you,1
+@user-yd6zd7ek1k,я русский,2
+@user-st3dp2tx2z,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=421"">7:01</a> I’m legit dying😭😭",2
+@devilgaming-wk5hn,Dont talk about Russia bad i m from india but india and russia are united 😢,2
+@allaivanishvili,😑,2
+@user-df9vi2rz7r,😂😂😂😂😂😂😂😂😂😂😂😂😂😂,2
+@adgamingofficial432,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=336"">5:36</a> got me dying 😂😂😂💀💀",2
+@cmafatimahcmafatiah8596,One Direction from various 😂😂😂😂😂😂<br>Ustaz Azhar Idrus dan,2
+@courtney4479,Absolutely none likes on my comments😢😢😢😢😢😢,2
+@NOTGAYYYY400,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=222"">3:42</a> I show speed:🔫🔫",2
+@HeisLemi,This is Hilarious 😂😂,2
+@user-nk8lh5hs5b,"<a href=""https://www.youtube.com/watch?v=jtBACN-yniI&t=394"">6:34</a> WTH IS WRONG WITH THE NOSE",2
