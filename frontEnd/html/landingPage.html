@@ -1,131 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Cybershield</title>
-    <!-- <style>
-      /* Add your CSS styles here */
-      /* Example styles */
-      body {
-        background-image: url("Assets/bg.jpg");
-    background-size: cover;
-    background-repeat: repeat-y;
-    background-attachment: scroll;
-        
-      }
-      .container {
-        overflow-y: auto;
-        text-align: center;
-        margin: 0 auto;
-        padding: 0px 20px 20px 20px;
-        
-      }
-      h1,
-      h2,
-      h3 {
-        text-decoration: #648db8;
-        color: #d0c8c8;
-      }
-      .static {
-        text-align: center;
-        position: sticky;
-        height: 100px;
-
-      }
-      p {
-        color: #ffffff;
-        line-height: 1.6;
-      }
-      li {
-        text-align: center;
-        color: #fff;
-      }
-      .logo{  
-      display: flex;
-      align-items: center;
-      justify content: center;
-       margin-top: 40px;
-    box-shadow: 0px 10px 20px ;
-    width:150px;
-    border-radius: 50%;
-    height: 10%;;
-
-      }
-      
-      .btn {
-        display: inline-block;
-        background-color: #007bff;
-        color: #fff;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 5px;
-      }
-    </style> -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield</title>
     <link rel="stylesheet" href="../css/landing.css">
-  </head>
-  <body>
-    <div><img class="logo" src="../Assets/logo.jpg" alt="logo"></div>
-    <!-- <button class="btn" id="getstartedid" type="submit">Get Started</button> -->
-    <a href="login.html"><button class="btn" id="getstartedid" type="submit">Get Started</button></a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="../js/land.js" defer></script>
 
-    
-
-    <div class="container">
-      <h1>Welcome to Cybershield</h1>
-      <p><strong>Empowering Safe Online Spaces</strong></p>
-      <p>
-        In today's digital age, cyberbullying has become an unfortunate reality,
-        affecting individuals of all ages. At CYBERSHIELD, we are dedicated to
-        creating safer online environments by leveraging cutting-edge technology
-        to detect and combat cyberbullying in real-time.
-      </p>
-      <h2>Our Mission</h2>
-      <p>
-        Our mission is simple yet profound: to foster a culture of kindness,
-        respect, and empathy online. We believe that everyone deserves to feel
-        safe and supported in the digital world, free from harassment,
-        intimidation, and abuse.
-      </p>
-      <h2>How It Works</h2>
-      <p>
-        Using advanced algorithms and machine learning techniques, our platform
-        continuously scans online content, including text, images, and videos,
-        to identify patterns indicative of cyberbullying behavior. Through
-        sophisticated analysis, we swiftly flag and address instances of
-        cyberbullying, helping to mitigate its harmful effects.
-      </p>
-      <h2>Why Choose Us</h2>
-      <ul>
-        <p>
-          <strong>Accuracy:</strong> Our technology is highly accurate,
-          minimizing false positives and ensuring that genuine cases of
-          cyberbullying are promptly addressed.
-        </p>
-        <p>
-          <strong>Timeliness:</strong> With real-time monitoring capabilities,
-          we swiftly detect and respond to cyberbullying incidents, preventing
-          escalation and minimizing harm.
-        </p>
-        <p>
-          <strong>User-Friendly Interface:</strong> Our platform features an
-          intuitive interface designed for ease of use, making it accessible to
-          individuals, families, schools, and organizations alike.
-        </p>
-        <p>
-          <strong>Privacy Protection:</strong> We prioritize the privacy and
-          security of our users, employing robust encryption protocols and
-          adhering to strict data protection standards.
-        </p>
-      </ul>
-      <h2>Join Us in Creating a Safer Internet</h2>
-      <p>
-        Together, we can make a difference. Whether you're a concerned parent,
-        an educator, or an advocate for online safety, join us in our mission to
-        combat cyberbullying and foster a culture of kindness and respect
-        online.
-      </p>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+    <img src="../Assets/logo.jpg" alt="logo"/>
+    <p>Empowering Safe Online Spaces</p>
     </div>
-    
-  </body>
+    <div class="box" id="login">
+        <div class="icon1">
+        <i class="fa fa-sign-in" aria-hidden="true"></i>
+        </div>
+        <div class="text">
+        <h2>LOGIN</h2>
+        <p>Click Here if you already have an account</p>
+        </div>
+    </div>
+    <div class="box" id="signup">
+        <div class="icon2">
+        <i class="fa fa-user-plus" aria-hidden="true"></i>
+        </div>
+        <div class="text">
+        <h2>SIGNUP</h2>
+        <p>Click Here to create an account</p>
+    </div>
+    </div>
+    <div class="box" id="about">
+        <div class="icon3">
+        <i class="fa-brands fa-readme"></i>
+        </div>
+        <div class="text">
+        <h2>ABOUT</h2>
+        <p>Click Here to know more about "CyberShield"</p>
+    </div>
+    </div>
+
+</div>
+</body>
 </html>
