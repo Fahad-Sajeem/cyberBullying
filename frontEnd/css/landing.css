@@ -1,70 +1,130 @@
-
-*{
+body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
-    
-}
-p{
-    padding-top:30px;
-    color: white;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-align: center;
-}
-body{
-    text-align: center;
     background-image: url("../Assets/bg.jpg");
     background-size: cover;
-    background-repeat: repeat-y;
     background-attachment: scroll;
+    /* Set the height to 100% of the viewport height */
+    height: 100vh;
+    /* Use flexbox to center the .container div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ensure the body takes up the full viewport height */
+    /* margin: 0;
+    padding: 0; */
 }
-.logo{
-    margin-top: 40px;
-    box-shadow: 0px 0px 30px ;
-    width:150px;
-    border-radius: 50%;
+
+.container {
+    backdrop-filter: blur(5px);
+    /* background-color: aqua; */
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px;
+    padding: 30px;
+    /* background-color: aqua; */
+    /* Adjust the width and height as needed */
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.btn{
-    margin-top: 80px;
-    font-size: 22px;
-    padding: 0.5em 1em;
-    border: 5px solid rgb(2, 2, 28);
-    border-radius: 15px;
-    background: rgb(97, 97, 180);
-    font-weight: 600;
-    box-shadow: 0px 10px 20px black;
-    transition: 0.3s;
-    margin-bottom: 60px;
-   
+.text{
+    font-size: 17px;
+    padding: 15px;
+    color: white;
+    width: 250px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 0.4s;
+    text-shadow: 0px 5px 5px black;
+    
 }
-.btn:hover{
-    background: rgb(2, 2, 28);
-    color: rgb(97, 97, 180);
-    transform: translateY(-12px);
-    box-shadow: 0px 10px 20px black;
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    /* border: 2px solid rgb(97, 97,180); */
+    height: 300px;
+    backdrop-filter: blur(5px);
+    border-radius: 40px;
+    /* width:200px; */
+    width: 70px;
+    margin: 5px;
+    box-shadow: 0px 0px 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    transition: 0.4s;
+    /* transition: transform 1s; */
+    text-align: center;
+    /* padding: 20px; */
 
 }
-.btn:active{
+.box:hover{
+    width: 270px;
+    transform: translateY(-15px);
+    box-shadow: 0px 10px 10px;
+
+}
+.box:hover .text {
+    /* Create a gradient that goes from transparent to a dark color at the bottom */
+    background: linear-gradient(to top, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0));
+    /* Ensure the background is only applied to the text area */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* Add padding and other styles as needed */
+    padding: 10px;
+    opacity: 1;
+    transform: translateY(0px);
+
+
+}
+.logo img{
+    border-radius: 70px;
+    box-shadow: 0px 0px 20px black;
+}
+.logo{
+    text-align: center;
+    margin-right: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+i{
+    color: white;
+    text-shadow: 0px 5px 5px black;
+    /* background-color: aqua; */
+    width: 50px;
+    font-size: 30px;
+    padding: 5px;
+}
+.icon1{
+    transform: translateY(100%);
+    transition: 0.4s;
+}
+.icon2{
+    margin-left: 7px;
+    transform: translateY(40%);
+    transition: 0.4s;
+
+}
+.icon3{
+    transform: translateY(110%);
+    transition: 0.4s;
+
+}
+.box:hover .icon1,
+.box:hover .icon2,
+.box:hover .icon3{
+    
+    /* transform: translateY(900%); */
+    transform: scale(2);
+    /* font-size: 100px; */
+}
+.box:active{
     transform: scale(0.95);
 }
-.container {
-    overflow-y: auto;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0px 20px 20px 20px;
-    
-  }
-  h1,
-  h2,
-  h3 {
-    text-decoration: #648db8;
-    color: #d0c8c8;
-  }
-  p {
-    color: #ffffff;
-    line-height: 1.6;
-  }
-  li {
-    text-align: center;
-    color: #fff;
-  }
