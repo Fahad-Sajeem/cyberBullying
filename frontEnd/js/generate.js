@@ -43,7 +43,8 @@ const auth = getAuth(app);
                         
                         const result = await response.json();
                         // console.log(result.message);
-                        alert(`Predictions saved. Check server at: ${result.path}`);
+                        // alert(`Predictions saved. Check server at: ${result.path}`);
+                        window.location.href = `resultPage.html?pdfUrl=${encodeURIComponent(result.url)}`;
                     } catch (error) {
                         console.error('Error:', error);
                         alert('Failed to process video ID.');

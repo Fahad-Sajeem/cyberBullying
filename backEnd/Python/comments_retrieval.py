@@ -158,7 +158,7 @@ def fetch_comments(videoId, API_key):
 
     save_dir = os.path.join(os.getcwd(),'backEnd','OutputFiles')    
     os.makedirs(save_dir, exist_ok=True)
-    csv_file_path = os.path.join(save_dir, 'translated_comments_1.csv')
+    csv_file_path = os.path.join(save_dir, 'translated_comments_3.csv')
 
     # Save the DataFrame with predictions to a new CSV file
     comments_df.to_csv(csv_file_path, index=False)
