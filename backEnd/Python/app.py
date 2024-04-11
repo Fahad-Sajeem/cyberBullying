@@ -20,7 +20,7 @@ firebase_admin.initialize_app(cred, {
 })
 
 app = Flask(__name__)
-CORS(app)  
+CORS(app, supports_credentials=True)
 
 @app.route('/process_video_id', methods=['POST'])
 def receive_video_id():

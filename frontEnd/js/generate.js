@@ -35,18 +35,33 @@ const auth = getAuth(app);
                     try {
                         const response = await fetch('http://127.0.0.1:5000/process_video_id', {
                             method: 'POST',
-                            headers: {
+                            mode: 'cors',
+                            credentials: 'include',
+                            headers: new Headers({
                                 'Content-Type': 'application/json',
-                            },
+                            }),
                             body: JSON.stringify({ videoId: videoId, userId: user.uid }),
                         });
-                        
-                        const result = await response.json();
-                        // console.log(result.message);
+
+                        //
+                        // // console.log('Before parsing JSON:', response);
+                        // const result = await response.json();
+                        // console.log('After parsing JSON:', result);
+                        // // console.log(result.message);
                         // alert(`Predictions saved. Check server at: ${result.path}`);
-                        window.location.href = `resultPage.html?pdfUrl=${encodeURIComponent(result.url)}`;
+                        // window.location.href = `result.html?pdfUrl=${encodeURIComponent(result.url)}`;
+                        // // window.location.href = "https://www.google.com";
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        } else {
+                            const result = await response.json();
+                            console.log('After parsing JSON:', result);
+                            alert(`Predictions saved. Check server at: ${result.path}`);
+                            window.location.href = `result.html?pdfUrl=${encodeURIComponent(result.url)}`;
+                        }
                     } catch (error) {
                         console.error('Error:', error);
+                        console.error('Error details:', error.message);
                         alert('Failed to process video ID.');
                     }
                 } else {
