@@ -6,9 +6,11 @@ document.getElementById("aboutButton").addEventListener("click", function () {
         aboutDiv.classList.remove("slide-about");
         aboutDiv.classList.add("slide-about-back");
         container.classList.remove("container-shift"); // Move the container back to its original position
+        container.classList.add("container-reset"); // Ensure the container is reset to its original position
     } else {
         aboutDiv.classList.remove("slide-about-back");
         aboutDiv.classList.add("slide-about");
+        container.classList.remove("container-reset"); // Remove the reset class
         container.classList.add("container-shift"); // Move the container towards the left
     }
 });
@@ -27,6 +29,7 @@ document.addEventListener("click", function(event) {
             aboutDiv.classList.remove("slide-about");
             aboutDiv.classList.add("slide-about-back");
             container.classList.remove("container-shift"); // Move the container back to its original position
+            container.classList.add("container-reset"); // Ensure the container is reset to its original position
         }
     }
 });
