@@ -21,6 +21,19 @@ document.addEventListener("click", function(event) {
            sideNav.classList.add("slide-back");
        }
   }
+  // Select all buttons inside the .side div
+var sideButtons = document.querySelectorAll(".side .sidebtn button");
+
+// Add an event listener to each button
+sideButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        // Hide the .side div
+        var sideNav = document.querySelector(".side");
+        sideNav.classList.remove("slide");
+        sideNav.classList.add("slide-back");
+    });
+});
+
  });
  document.getElementById("previewbtn").addEventListener("click", async function() {
   const url = '../Assets/usecase.pdf'; // Replace with the actual path to your PDF
