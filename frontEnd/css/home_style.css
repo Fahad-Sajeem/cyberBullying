@@ -326,3 +326,211 @@ embed{
 .slide-about-back{
     transform: translateX(150%);
 }
+.edit {
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    position: fixed; /* Fixed positioning so it stays in place regardless of scrolling */
+    z-index: 9999; /* Set a high z-index value to ensure it appears on top of other elements */
+    /* top: 0; Positioning it at the top of the viewport */
+    margin-left: 15px;
+    /* margin-top: 115px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 15px ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px ;
+    transform: translateX(-150%);
+    transition: 0.3s;
+}
+.edit button{
+    text-shadow: 2px 3px 2px black;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    color: white;
+    cursor: pointer;
+    margin: 3px 0px;
+    /* font-size: 22px; */
+    padding: 0.5em 1em;
+    border: 2px solid white;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 400;
+    box-shadow: 0px 0px 15px black;
+    transition: 0.3s;
+}
+.edit button:hover{
+    text-shadow: none;
+    background: white;
+    /* font-weight: 500; */
+    color: black;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px black;
+}
+i{
+    margin-right: 5px;
+}
+.edit button:active{
+    transform: scale(0.85);
+}
+.slide-edit {
+    transform: translateX(0);
+}
+
+.slide-edit-back {
+    transform: translateX(-150%);
+}
+.ed_name {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* color: white; */
+    position: fixed; /* Fixed positioning so it stays in place regardless of scrolling */
+    z-index: 9999; /* Set a high z-index value to ensure it appears on top of other elements */
+    /* top: 0; Positioning it at the top of the viewport */
+    margin-left: 15px;
+    /* margin-top: 115px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 15px ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+    transform: translateX(-150%);
+    transition: 0.3s;
+}
+.ed_name div{
+    margin: 15px;
+}
+.ed_name input{
+    width: 50%;
+    color: white;
+    background: transparent;
+    border-radius: 30px;
+    outline: none;
+    padding: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px black;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.ed_name button{
+    margin: 10px;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px black;
+    transition: 0.3s;
+    cursor: pointer;
+    background: rgb(97, 97, 180);
+    border: 1px solid rgb(2, 2, 28);
+font-weight: 500;
+
+
+}
+.ed_name input:hover,
+.ed_name input:focus{
+border-color: chartreuse;
+}
+
+.ed_name button:hover{
+    background: rgb(2, 2, 28);
+    color: rgb(97, 97, 180);
+    /* color: chartreuse; */
+    transform: translateY(-4px);
+    box-shadow: 0px 10px 30px black;
+
+}
+.ed_name button:active{
+    transform: scale(0.95);
+}
+.slide-newname {
+    transform: translateX(0);
+}
+
+.slide-newname-back {
+    transform: translateX(-150%);
+}
+.ed_pwd {
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* color: white; */
+    position: fixed; /* Fixed positioning so it stays in place regardless of scrolling */
+    z-index: 9999; /* Set a high z-index value to ensure it appears on top of other elements */
+    /* top: 0; Positioning it at the top of the viewport */
+    margin-left: 15px;
+    /* margin-top: 115px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 15px ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+    transform: translateX(-150%);
+    transition: 0.3s;
+}
+
+.ed_pwd div{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ed_pwd input{
+    width: 50%;
+    color: white;
+    background: transparent;
+    border-radius: 30px;
+    outline: none;
+    padding: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px black;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.ed_pwd button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px black;
+    transition: 0.3s;
+    cursor: pointer;
+    background: rgb(97, 97, 180);
+    border: 1px solid rgb(2, 2, 28);
+font-weight: 500;
+
+
+}
+.ed_pwd input:hover,
+.ed_pwd input:focus{
+border-color: chartreuse;
+}
+
+.ed_pwd button:hover{
+    background: rgb(2, 2, 28);
+    color: rgb(97, 97, 180);
+    /* color: chartreuse; */
+    transform: translateY(-4px);
+    box-shadow: 0px 10px 30px black;
+
+}
+.ed_pwd button:active{
+    transform: scale(0.95);
+}
+.slide-newpwd {
+    transform: translateX(0);
+}
+
+.slide-newpwd-back {
+    transform: translateX(-150%);
+}
