@@ -30,3 +30,8 @@ document.addEventListener("click", function(event) {
   window.open(objectURL, '_blank');
 });
 
+ 
+
+
+ 
+
