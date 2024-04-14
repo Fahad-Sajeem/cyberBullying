@@ -1,64 +1,6 @@
 Author,Comment,Predicted_Class
-@PeterCorsa,"Hello Julian, thank you for the help. I was hoping to view the json data in the terminal on the web page, what video is that in?",2
-@MegaMooj,This is great content. Thank you!,2
-@gamex-animex6289,is it possible to send data from flask back to javscript without using jinja?,2
-@MatSzub,"I was looking for a clear answer how to perform communication between front to back-end for a long time. And after that I found this tutorial, which is clear and understandable for me as a beginner. Julian Nash - thanks a lot. It gives me a milestone in my first programming project.",2
-@pro_grammar,You really helped me solve a big problem. Bless you,2
-@gabriellsscolaro,"How to hide this script from the client side, or can I make a post of these values and sent to the back end to do some stuff in a python program (back-ended)",2
-@adomassem,"Thanks for great tutorial, really helped me with my project!",2
-@TheCacoVenom,"good explanation but I really want to click and move another route by rendering a template, so far I am in the route but since is not JSON and instead is <!Doctype is giving me an error  Uncaught (in promise) SyntaxError: Unexpected token '<', ""<!DOCTYPE ""... is not valid JSON",2
-@sayhellotoroy,Flask forms would work better in this case I believe,2
-@junivensaavedra882,"Excellent resource, thank you very much. :)",2
-@liquathrushbane2003,"Gah! This video got me.  Didn't see (in the previous video) about adding a  {% block script %}{% blockend %} in the public_template.html so it took ages to get working.  Still, enjoying the series so far.",2
-@amd.615,"Very Helpful, thAnks to you 👍👍👍",2
-@joaopaulocoimbra9381,Amazed by all the talents Charlie Cox have.,2
-@stephenthumb2912,"At its basics,  it's just a way to perform API POST, GET...,  directly from vanilla JS inside the DOM, then you're just communicating with your python backend as normal.  For some reason that was confusing at the start.",2
-@BharatChawla55,Bro you just saved my day! Thanks a ton!,2
-@ik4rus2k,"Hey Julian, thanks for the great video! Could you please explain how to actually return the response? i always get ""Undefined""",2
-@bull2026,Saved my day ..,2
-@Imufur,why use this and not a request.args or request.form or something like that?,2
-@soldadopreciso,"Thanks pal, very useful tutorial, greetings from South America. Greetings fro the flask community.",2
-@ivanmclennon,"this was really fun, shame your channel's dead",2
-@danielandresclavijogiraldo4953,"If you use Token CSRF, I recommend putting this on the headers ""X-CSRF-TOKEN"": csrfSi utiliza Token Csrf, recomiendo poner esto en las cabeceras ""X-CSRF-TOKEN"": csrfExample/Ejemplo:csrf = 'Your token'headers: new Headers({  ""Content-Type"": ""application/json"",  ""X-CSRF-TOKEN"": csrf})",2
-@alharethturab7612,is it possible to send octet-stream inside the json along with other types of data?,2
-@manhdannguyen6059,Thank you very much <3,2
-@jonsnow9758,"Need HELP As per this tutorial I'm sending data with POST request using fetch();in my views.py file I'm able to print it in the console. But when I pass it using render_template() to a html file, the table rows which I expect to update are NOT updating.",2
-@saurabhagarwal9253,very useful video.. few things need to be updated in the code to make it work error-free,2
-@jonsnow9758,Best Python Flask Jinja Tutorial available on YouTube !!! He has explained each and every thing properly.That's exactly I was looking for... Amazing ....Thanks a ton Julian!!!,2
-@muhammadshafeeq8779,Thank you soo much for taking your time to do this. I dunno if u hear this a lot but ur special.,2
-@Sclafus,Thanks for this amazing tutorial!,2
-@anarabiyev9766,"Videos and explanation are great, but I feel like the videos go from ""Flask Tutorial"" to ""HTML tutorial"". I fully get that they are related, but I would be happier I you mainly talked about the basics and main concepts of flask without going into coding of HTML.",2
-@investmentapps7826,"fetch('${window.origin}/guestbook/create-entry'  returns:  http://dellserver:5005/$%7Bwindow.origin%7D/guestbook/create-entry 404 (NOT FOUND)fetch('/guestbook/create-entry'   returns{'name': 'name', 'message': 'Message'}192.168.0.160 - - [11/Apr/2021 17:05:38] ""←[37mPOST /guestbook/create-entry HTTP/1.1←[0m"" 200 -",2
-@KirkLHemmett,I just completed my project seeing your video. Great help.,2
-@mbuzifromthehood,Love your work manze.,1
-@EnglishRain,"Amazing, thank you!",2
-@michaellk2254,"you have NO IDEA, how MUCH OF A HEADACHE YOU SAVED ME. OH MY GOODNESS. THANK YOU",1
-@zsadezbuchanon2808,Excellent stuff man.  Thank you so much.,2
-@yashvarshney6761,Tip: Always show code link at the end of the video.,2
-@guinea_horn,Do you have this code up anywhere? It's a bit inconvenient to have to scrub through the video to find bits that I'm referencing in my own application.,2
-@boriskrasilnikovs4717,thank you merry much!,2
-@nguyenhailong6522,"It hit right the thing I want. Love your video, great content with an example from the server side. I had been struggling with all the documentation which has nothing on the server-side, and I cant understand how and where to send the fetch url, but your video saves me. So thump up for ya !",2
-@annakbballin7,Is there a reason an else statement is not included in the .then method?,2
-@christophedupin8130,i m getting an error : Fetch error: TypeError: Failed to fetchany idea?how could the example work :response.json().then(function (data)response.json() object doesnt have any methode call then and it s note a promise,2
-@ilmessiablasfemo8655,"get_json() was always returing a none value for me, i solved using: req = request.get_json(force = True)thank you btw, I was going insane before your video<3",1
-@sonny8595,"What would be the reason to use Fetch API, instead of form data as in Pt 7? (Or maybe requests if that is possible?)Thanks! I like your videos a lot, very explanatory!I also watched the series of Corey Shafer on Flask (which I liked BTW), but yours are more instructive and clearer so far. You use less additional libraries, which let it be more Pythonic.",2
-@unclegood,"Thanks for the video!A question about ${window.origin}. What programming language is that?It does not seem to work for me, I use the below instead.fetch(window.location.href+'getjson',{Do you know if there is any difference?",2
-@Blocks0,Great tutorial. Thanks!,2
-@mateoscarafia5110,coooolll,2
-@adriangonzalez346,The best!!,2
-@baconmanbro,"Thanks for your help mate! Last few days was wrapping my mind around this topic, and just clicked while watching this video.",2
-@PatHess,very helpful....I'll check out some more of your videos....I did spend some time running down my typos..nothing new there,2
-@scottcurry3767,"Awesome stuff man, this helped me a lot!",2
-@wduandy,"You're an amazing teacher mate, well done!",2
-@NigelPond,"Is there anything in this code that conflicts with any previous lessons? The reason for asking is that it's not working for me. I started falling behind when we were expecting to see Chrome console output... I don't see any. I also don't see the ""print(req)"" output in the flask console either... I've been through the code line-by-line from pythonise.com too...  I've spotted the obvious ""submit_message()"" and ""submit_entry()"" function name differences... odd",2
-@jitendra2510,Thank you very very very very very.....much. You saved project.Thank you again.,2
-@Emphraim13,Thanks you saved my ass <3,1
-@sagnikchakraborty4750,This guy saved me !!! Thank A Lot !!!,2
-@ryanhinchliffe7771,"Thanks, for making this Video Julian :)",2
-@fulstak,Getting an error: ReferenceError: submit_entry is not defined,2
-@brutalbutler,"vids are class mate, wish i found them earlier!",2
-@m3wt518,Hi! I'm getting this error in the console guestbook:72 Uncaught ReferenceError: submit_entry is not defined    at HTMLButtonElement.onclick (guestbook:72). Could you help please?,2
-@eugeniogonzato,"Helpful, next time will be very good if we will meke a zoom that permits to read you code watching the video from a smart phone",2
-@vavkus,"thanks, helpfull example!.",2
-@coderpreneur,"awesome video buddy, keep it up ;)",2
-@baraasammoud9148,"hello julian , really i need you help please ,  can we use the datatime with flask ? can we use the datatime with flask ?if yes , please how if we limted two date , means date of start and date of end ? :) :)",2
+@abystylishpersonified3694,One of the worst tamil movie 🤑,2
+@cgsniper506,Play the music!! 🔥Patt thodangiyappo 😮🤣,2
+@sujithmathewabraham9961,Bjp chettakal irakkiya padam pole thonnunnu kerala thamil virodhom undakki bjpku vendi imathiri padam varumbol athil abhinayikan malayali enthinu pokanom,2
+@manuam7564,Thamizhnmar vare ooki thudangi..... 😅😅,2
+@ajay8676,Manjummel ithinte scene matti😅 washout,2

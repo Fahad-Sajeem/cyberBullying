@@ -34,7 +34,7 @@ def receive_video_id():
         bucket = storage.bucket()
         blob = bucket.blob(f'{userId}/{videoId}.pdf')
         blob.upload_from_string(pdf_bytes.getvalue(), content_type='application/pdf')
-        pdf_url = f'https://firebasestorage.googleapis.com/v0/b/{bucket.name}/o/{quote(blob.name)}?alt=media'
+        pdf_url = f'https://firebasestorage.googleapis.com/v0/b/{bucket.name}/o/{quote(blob.name)}'
     
         return jsonify({"message": "PDF generated and uploaded successfully", "url": pdf_url})
     else:
