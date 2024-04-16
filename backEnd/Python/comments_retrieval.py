@@ -106,7 +106,7 @@ def fetch_comments(videoId, API_key):
     request = youtube.commentThreads().list(
         part="snippet",
         videoId=videoId,
-        maxResults=5
+        maxResults=100
     )
     response = request.execute()
 
