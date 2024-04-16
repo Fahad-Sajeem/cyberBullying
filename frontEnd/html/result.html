@@ -4,9 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ResultPage</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="../css/home_style.css">
         <script type="module" src="../js/logout.js" defer></script>
-        <script type="module" src="../js/about.js"></script>
+        <script type="module" src="../js/edit.js"></script>
+        <script type="module" src="../js/newname.js"></script>
+        <script type="module" src="../js/newpwd.js"></script>
     </head>
     <body>
         <div class="nav">
@@ -31,6 +34,22 @@
                 <button id="sideLogoutButton">LogOut</button>
             </div>
         </div>
+
+        <div class="ed_name">
+            <div>Enter New Name <input type="text" id="newname"></div>
+            <button id="namedone"><i class="fa fa-check"></i>Done</button>
+        </div>
+        <div class="ed_pwd">
+            <div>Enter Current Password <input type="text" id="cpwd"></div>
+            <div>Enter New Password <input type="text" id="newpwd"></div>
+            <div>Re-Enter New Password <input type="text" id="newpwd2"></div>
+            <button id="pwdDone"><i class="fa fa-check"></i>Done</button>
+        </div>
+        <div class="edit">
+            <button id="editname"><i class="far fa-edit"></i>Edit Name</button>
+            <button id="editpwd"><i class="far fa-edit"></i>Edit Password</button>
+        </div>
+
         <div class="centrediv">
         <div><img class="logo" src="../Assets/logo.jpg" alt="logo">
         </div>
@@ -56,46 +75,49 @@
             driving positive change.</p>
         </div>
         <div> <button class="resultbtn" id="sendtobtn" type="submit">Send to Authorities</button></div>
-        
-    </div>
-    <div class="about">
-        <div>
-        <h2>Welcome to "CyberShield"</h2>
-        <c>In today's digital age, cyberbullying has become an unfortunate reality, 
-            affecting individuals of all ages. At CYBERSHIELD, we are dedicated to creating safer online environments by leveraging cutting-edge 
-            technology to detect and combat cyberbullying in real-time.</c>
         </div>
-        <div>
-            <h2>Our Mission</h2>
-        <c>Our mission is simple yet profound: to foster a culture of kindness, respect, and empathy online. 
-            We believe that everyone deserves to feel safe and supported in the digital world, free from harassment, 
-            intimidation, and abuse.</c>
-        </div>
-        <div>
-        <h3>How it Works</h3>
-        <c>Using advanced algorithms and machine learning techniques, our platform continuously scans online content, including text, images, and videos, to identify patterns indicative of 
-            cyberbullying behavior. Through sophisticated analysis, we swiftly flag and address instances of cyberbullying, helping to
-             mitigate its harmful effects.</c>
-        </div>
-        <div>
-        <h3>Why Choose Us</h3>
-        <c>
-            <ul>
-                <li>Accuracy: Our technology is highly accurate, minimizing false positives and ensuring that genuine cases of cyberbullying are promptly addressed.</li>
-                <li>Timeliness: With real-time monitoring capabilities, we swiftly detect and respond to cyberbullying incidents, preventing escalation and minimizing harm.</li>
-                <li>User-Friendly Interface: Our platform features an intuitive interface designed for ease of use, making it accessible to individuals, families, schools, and organizations alike.</li>
-                <li>Privacy Protection: We prioritize the privacy and security of our users, employing robust encryption protocols and adhering to strict data protection standards.</li>
-            </ul>
-        </c>
-        </div>
-        <div>
-        <h3>Join Us In Creating a "Safer Internet"</h3>
-        <c>Together, we can make a difference. Whether you're a concerned parent, an educator, or an advocate for online safety, join us in our mission to combat cyberbullying and 
-            foster a culture of kindness and respect online.</c>
-        </div>
+        <div class="about">
+            <div>
+            <h2>Welcome to "CyberShield"</h2>
+            <c>In today's digital age, cyberbullying has become an unfortunate reality, 
+                affecting individuals of all ages. At CYBERSHIELD, we are dedicated to creating safer online environments by leveraging cutting-edge 
+                technology to detect and combat cyberbullying in real-time.</c>
+            </div>
+            <div>
+                <h2>Our Mission</h2>
+            <c>Our mission is simple yet profound: to foster a culture of kindness, respect, and empathy online. 
+                We believe that everyone deserves to feel safe and supported in the digital world, free from harassment, 
+                intimidation, and abuse.</c>
+            </div>
+            <div>
+            <h3>How it Works</h3>
+            <c>Using advanced algorithms and machine learning techniques, our platform continuously scans online content, including text, images, and videos, to identify patterns indicative of 
+                cyberbullying behavior. Through sophisticated analysis, we swiftly flag and address instances of cyberbullying, helping to
+                 mitigate its harmful effects.</c>
+            </div>
+            <div>
+            <h3>Why Choose Us</h3>
+            <c>
+                <ul>
+                    <li>Accuracy: Our technology is highly accurate, minimizing false positives and ensuring that genuine cases of cyberbullying are promptly addressed.</li>
+                    <li>Timeliness: With real-time monitoring capabilities, we swiftly detect and respond to cyberbullying incidents, preventing escalation and minimizing harm.</li>
+                    <li>User-Friendly Interface: Our platform features an intuitive interface designed for ease of use, making it accessible to individuals, families, schools, and organizations alike.</li>
+                    <li>Privacy Protection: We prioritize the privacy and security of our users, employing robust encryption protocols and adhering to strict data protection standards.</li>
+                </ul>
+            </c>
+            </div>
+            <div>
+            <h3>Join Us In Creating a "Safer Internet"</h3>
+            <c>Together, we can make a difference. Whether you're a concerned parent, an educator, or an advocate for online safety, join us in our mission to combat cyberbullying and 
+                foster a culture of kindness and respect online.</c>
+            </div>
     </div>
     <script src="../js/side.js"></script>
     <script src="../js/disp.js" type="module" defer></script>
     <script src="../js/resultReport.js" type="module" defer></script>
+    <script type="module" src="../js/rename.js"></script>
+<script type="module" defer src="../js/pwdchange.js"></script>
+<script type="module" src="../js/about.js"></script>
+
     </body>
 </html>
