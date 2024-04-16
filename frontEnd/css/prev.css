@@ -1,0 +1,495 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    
+}
+body{
+    background-image: url("../Assets/bg.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+}
+.nav{
+    text-align: center;
+    /* box-shadow: 0px -10px 20px black; */
+    padding: 5px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: 10px -30px 35px;
+    /* background: rgb(255,255,255,0.08); */
+    margin-top: -50px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    margin: 4px 0px 0px 4px;
+    text-align: center;
+    border-radius: 60%;
+    width: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.rightnav{
+    display: flex;
+    justify-content:space-between;
+}
+.rightnav button{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+    background: transparent;
+    border-style: none;
+    color: white;
+    transition: 0.3s;
+}
+.rightnav button:hover{
+    color: chartreuse;
+    text-shadow: 0px 10px 15px black;
+}
+.nav img:hover{
+    transform: translateY(-1.5px);
+    box-shadow: 7px 10px 30px black;
+
+}
+.rightnav button:active,
+.nav img:active{
+    transform: scale(0.85);
+}
+.resultbtn{
+    width: 200px;
+    color: rgb(2, 2, 28) ;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+    padding: 0.5em 0 ;
+    border: 2px solid rgb(2, 2, 28);
+    border-radius: 15px;
+    background: rgb(97, 97, 180);
+    font-weight: 600;
+    box-shadow: 0px 10px 20px black;
+    transition: 0.3s;
+}
+.side {
+    position: fixed; /* Fixed positioning so it stays in place regardless of scrolling */
+    z-index: 9999; /* Set a high z-index value to ensure it appears on top of other elements */
+    /* top: 0; Positioning it at the top of the viewport */
+    margin-left: 15px;
+    /* margin-top: -59px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px ;
+    transform: translateX(-150%);
+    transition: 0.3s;
+}
+.user img{
+    border-radius: 100%;
+    /* width: 40px; */
+    width: 60px;
+    margin-right: 15px;
+    /* cursor: pointer; */
+    transition: 0.3s;
+    box-shadow: 0px 0px 50px black;
+
+}
+.user{
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.5px);
+    box-shadow: 0px 0px 15px;
+}
+.user k{
+    font-size: 15px;
+}
+
+.sidebtn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.sidebtn button{
+    text-shadow: 2px 3px 2px black;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    color: white;
+    cursor: pointer;
+    margin-top: 6px;
+    /* font-size: 22px; */
+    padding: 0.5em 1em;
+    border: 2px solid white;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 400;
+    box-shadow: 0px 0px 15px black;
+    transition: 0.3s;
+}
+.sidebtn button:hover{
+    text-shadow: none;
+    background: white;
+    /* font-weight: 500; */
+    color: black;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px black;
+}
+.sidebtn button:active{
+    transform: scale(0.85);
+}
+
+.slide{
+    transform: translateX(0);
+}
+.slide-back{
+    transform: translateX(-150%);
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    border: none;
+    /* overflow-y: scroll;
+    height: 30%; */
+    /* overflow: scroll; */
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* width: fit-content; */
+}
+
+.about {
+    position: fixed; /* Fixed positioning so it stays in place regardless of scrolling */
+    z-index: 9999; /* Set a high z-index value to ensure it appears on top of other elements */
+    /* top: 0; Positioning it at the top of the viewport */
+    margin-right: 15px;
+    /* margin-top: -59px; */
+    right: 0;
+    top: 13%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: 33%;
+    height: 78%;
+    overflow-y: scroll;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px ;
+    transform: translateX(150%);
+    transition:  ease 0.3s;
+    text-align: justify;
+}
+.about div{
+    backdrop-filter: blur(5px);
+    padding:  5px 20px 20px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+::-webkit-scrollbar{
+    width: 10px;
+    /* box-shadow: 0px 0px 10px  ; */
+
+}
+::-webkit-scrollbar-track{
+    background: rgba(255, 255, 255, 0.5) ;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(27, 25, 42);
+    box-shadow: 0px 0px 30px black;
+    border-radius: 30px;
+}
+.slide-about{
+    transform: translateX(0);
+}
+.slide-about-back{
+    transform: translateX(150%);
+}
+
+
+table {
+    color: white;
+    box-shadow: 0px 0px 30px black;
+    backdrop-filter: blur(5px);
+    background: transparent;
+    height: 50%;
+    margin: 30px;
+    text-align: center;
+    width: 75%;
+    /* border-collapse: collapse; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+}
+
+table tbody tr td:first-child a{
+    /* Styles for the first column cells */
+    color: white;
+    text-decoration: none;
+    /* background-color: rgba(255, 255, 255, 0.05); */
+    padding: 0px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+table th, table td {
+    /* outline: none; */
+    /* padding: 10px; */
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 10px;
+    text-align: center;
+    /* border-radius: 5px; */
+}
+table th {
+    position: sticky;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Header background color */
+    color: #fff; /* Header text color */
+}
+
+.preview-button, .send-button {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    box-shadow: 0px 0px 15px black;
+    font-weight: 600;
+    padding: 8px 16px; /* Padding for buttons */
+    border-radius: 20px; /* Button border radius */
+    background-color: #338a36; /* Button background color */
+    color: rgb(9, 37, 16); /* Button text color */
+    text-decoration: none; /* Remove underline from buttons */
+    text-align: center; /* Center button text */
+    /* margin-right: 5px; Margin between buttons */
+    transition: 0.3s;
+}
+
+.preview-button:hover, .send-button:hover {
+    text-shadow: none;
+    background: rgb(104, 235, 56);
+    /* font-weight: 500; */
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px black;
+}
+
+.preview-button:active, .send-button:active {
+    transform: scale(0.95);
+}
+
+
+
+.edit {
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    position: fixed; /* Fixed positioning so it stays in place regardless of scrolling */
+    z-index: 9999; /* Set a high z-index value to ensure it appears on top of other elements */
+    /* top: 0; Positioning it at the top of the viewport */
+    margin-left: 15px;
+    /* margin-top: 115px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 15px ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px ;
+    transform: translateX(-150%);
+    transition: 0.3s;
+}
+.edit button{
+    text-shadow: 2px 3px 2px black;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    color: white;
+    cursor: pointer;
+    margin: 3px 0px;
+    /* font-size: 22px; */
+    padding: 0.5em 1em;
+    border: 2px solid white;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 400;
+    box-shadow: 0px 0px 15px black;
+    transition: 0.3s;
+}
+.edit button:hover{
+    text-shadow: none;
+    background: white;
+    /* font-weight: 500; */
+    color: black;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px black;
+}
+i{
+    margin-right: 5px;
+}
+.edit button:active{
+    transform: scale(0.85);
+}
+.slide-edit {
+    transform: translateX(0);
+}
+
+.slide-edit-back {
+    transform: translateX(-150%);
+}
+.ed_name {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* color: white; */
+    position: fixed; /* Fixed positioning so it stays in place regardless of scrolling */
+    z-index: 9999; /* Set a high z-index value to ensure it appears on top of other elements */
+    /* top: 0; Positioning it at the top of the viewport */
+    margin-left: 15px;
+    /* margin-top: 115px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 15px ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+    transform: translateX(-150%);
+    transition: 0.3s;
+}
+.ed_name div{
+    margin: 15px;
+}
+.ed_name input{
+    width: 50%;
+    color: white;
+    background: transparent;
+    border-radius: 30px;
+    outline: none;
+    padding: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px black;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.ed_name button{
+    margin: 10px;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px black;
+    transition: 0.3s;
+    cursor: pointer;
+    background: rgb(97, 97, 180);
+    border: 1px solid rgb(2, 2, 28);
+font-weight: 500;
+
+
+}
+.ed_name input:hover,
+.ed_name input:focus{
+border-color: chartreuse;
+}
+
+.ed_name button:hover{
+    background: rgb(2, 2, 28);
+    color: rgb(97, 97, 180);
+    /* color: chartreuse; */
+    transform: translateY(-4px);
+    box-shadow: 0px 10px 30px black;
+
+}
+.ed_name button:active{
+    transform: scale(0.95);
+}
+.slide-newname {
+    transform: translateX(0);
+}
+
+.slide-newname-back {
+    transform: translateX(-150%);
+}
+.ed_pwd {
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* color: white; */
+    position: fixed; /* Fixed positioning so it stays in place regardless of scrolling */
+    z-index: 9999; /* Set a high z-index value to ensure it appears on top of other elements */
+    /* top: 0; Positioning it at the top of the viewport */
+    margin-left: 15px;
+    /* margin-top: 115px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 15px ;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+    transform: translateX(-150%);
+    transition: 0.3s;
+}
+
+.ed_pwd div{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ed_pwd input{
+    width: 50%;
+    color: white;
+    background: transparent;
+    border-radius: 30px;
+    outline: none;
+    padding: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px black;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.ed_pwd button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px black;
+    transition: 0.3s;
+    cursor: pointer;
+    background: rgb(97, 97, 180);
+    border: 1px solid rgb(2, 2, 28);
+font-weight: 500;
+
+
+}
+.ed_pwd input:hover,
+.ed_pwd input:focus{
+border-color: chartreuse;
+}
+
+.ed_pwd button:hover{
+    background: rgb(2, 2, 28);
+    color: rgb(97, 97, 180);
+    /* color: chartreuse; */
+    transform: translateY(-4px);
+    box-shadow: 0px 10px 30px black;
+
+}
+.ed_pwd button:active{
+    transform: scale(0.95);
+}
+.slide-newpwd {
+    transform: translateX(0);
+}
+
+.slide-newpwd-back {
+    transform: translateX(-150%);
+}

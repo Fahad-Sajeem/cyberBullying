@@ -42,22 +42,59 @@ function retrieveAndDisplayPDFs(userId) {
     });
 }
 
+// function displayPDF(fileName, url, creationDate) {
+//     const tableBody = document.getElementById('pdfTableBody');
+//     const row = tableBody.insertRow();
+
+//     const cellName = row.insertCell();
+
+//     const link = document.createElement('a');
+//     link.href = url;
+//     link.innerHTML = fileName; // Display PDF name as link text
+//     cellName.appendChild(link);
+//     const cellDate = row.insertCell();
+
+//     cellDate.innerHTML = creationDate.toLocaleDateString(); // Display creation date
+
+
+// }
+
+// Function to display PDF in table
 function displayPDF(fileName, url, creationDate) {
     const tableBody = document.getElementById('pdfTableBody');
     const row = tableBody.insertRow();
 
     const cellName = row.insertCell();
-
     const link = document.createElement('a');
     link.href = url;
     link.innerHTML = fileName; // Display PDF name as link text
     cellName.appendChild(link);
-    const cellDate = row.insertCell();
 
+    const cellDate = row.insertCell();
     cellDate.innerHTML = creationDate.toLocaleDateString(); // Display creation date
 
+    const cellActions = row.insertCell();
+    const previewButton = document.createElement('a');
+    previewButton.href = "#"; // Add link for preview functionality
+    previewButton.textContent = "Preview"; // Label for preview button
+    previewButton.classList.add('preview-button'); // Add class for styling
+    previewButton.addEventListener('click', function() {
+        // Implement preview functionality here
+        console.log("Preview button clicked for " + fileName);
+    });
+    cellActions.appendChild(previewButton);
 
+    const sendButton = document.createElement('a');
+    sendButton.href = "#"; // Add link for sending mail functionality
+    sendButton.textContent = "Send Mail"; // Label for send mail button
+    sendButton.classList.add('send-button'); // Add class for styling
+    sendButton.addEventListener('click', function() {
+        // Implement send mail functionality here
+        console.log("Send mail button clicked for " + fileName);
+    });
+    cellActions.appendChild(sendButton);
 }
+
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
