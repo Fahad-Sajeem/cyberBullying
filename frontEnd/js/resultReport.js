@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById('sendtobtn').addEventListener('click', async function() {
                     let email = 'example@gmail.com';
                     const username = await fetchUsername(user.uid);
+                    const urk = await getDownloadURL(storageRef);
                     let subject = encodeURIComponent('Cyberbullying Report Submission');
                     let body = encodeURIComponent(
                         `Dear Cyber Security Authorities,\n\n` +
@@ -91,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         `The report includes comments that have been flagged as offensive, providing details on the commenter, the content of the comments, and an assessment of the offensive nature.\n\n` +
                         `Username of reporting individual: ${username}\n` +
                         `Please review the attached detailed report to take the necessary actions according to your protocols and guidelines.\n\n` +
-                        `The detailed report can be accessed via the following link: ${fullUrl}\n\n` +
+                        `The detailed report can be accessed via the following link: ${urk}\n\n` +
                         `We appreciate your attention to this matter and are committed to supporting a safe and respectful online environment.\n\n` +
                         `Kind Regards,\n` +
                         `${username} (on behalf of [Your Organization's Name or System Name])`  // Replace [Your Organization's Name or System Name] with your actual organization or system name
