@@ -31,6 +31,8 @@ const auth = getAuth(app);
                 if (match) {
                     const videoId = match[4];
                     linkInput.value = ""; // Clear the input field
+                    generateButton.disabled = true; // Disable button
+                    generateButton.textContent = "Loading...";
         
                     try {
                         const response = await fetch('http://127.0.0.1:5000/process_video_id', {
@@ -61,8 +63,10 @@ const auth = getAuth(app);
                         }
                     } catch (error) {
                         console.error('Error:', error);
-                        console.error('Error details:', error.message);
                         alert('Failed to process video ID.');
+                    }finally {
+                        generateButton.disabled = false; // Re-enable button
+                        generateButton.textContent = "Generate"; // Reset button text
                     }
                 } else {
                     console.error('Invalid URL:', linkText);
