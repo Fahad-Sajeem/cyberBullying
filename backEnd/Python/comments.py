@@ -4,7 +4,7 @@ import csv
 
 api_service_name = "youtube"
 api_version = "v3"
-API_key = "googleTranslateApi"
+API_key = "youtubeApi"
 
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=API_key)
