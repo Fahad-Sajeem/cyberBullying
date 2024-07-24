@@ -11,25 +11,10 @@ def create_pdf(df):
     styles = getSampleStyleSheet()
 
     dir = os.path.join(os.getcwd(), 'backEnd', 'OutputFiles')
-    # os.makedirs(dir, exist_ok=True)
-    # input_csv_file = os.path.join(dir, 'predicted_comment_out.csv')
     output_pdf_file = os.path.join(dir, 'comments_table_3.pdf')
 
     # Initialize data list for PDF table
     data = [["Author", "Comment", "Category"]]
-
-    # Read data from CSV and populate 'data' list with split comments
-    # with open(input_csv_file, 'r', encoding='utf-8') as file:
-    #     reader = csv.DictReader(file)
-    #     for row in reader:
-    #         predicted_class = int(row['Predicted_Class'])
-    #         if predicted_class in [0, 1]:
-    #             category = 'Offensive' if predicted_class == 1 else 'Hate'
-    #             comment = Paragraph(row['Comment'], styles['Normal'])
-                
-    #             username = row['Author'] 
-    #             data.append([username, comment, category])
-
     for _,row in df.iterrows():
         predicted_class = row['Predicted_Class']
         if predicted_class in [0, 1]:
@@ -41,13 +26,10 @@ def create_pdf(df):
     # Create a PDF document
     pdf = SimpleDocTemplate(buffer, pagesize=letter)
     elements = []
-
     # Column widths
     column_widths = [150, 300, 100]  # Adjust as needed
-
     # Create a table with data
     table = Table(data, colWidths=column_widths)
-
     # Add style to the table
     table_style = TableStyle([
         ('BACKGROUND', (0, 0), (-1, 0), colors.gray),
@@ -62,14 +44,10 @@ def create_pdf(df):
         ('RIGHTPADDING', (0, 0), (-1, -1), 3)
     ])
     table.setStyle(table_style)
-
     # Add the table to the elements list
     elements.append(table)
-
     # Generate the PDF
     pdf.build(elements)
-
-    # print(f"PDF table created successfully in {output_pdf_file}")
 
     buffer.seek(0)
     return buffer
