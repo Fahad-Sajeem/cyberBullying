@@ -1,12 +1,10 @@
-# AIzaSyBGTpbJlpXs195pbV1gDa11xKzdE2Nm_J0
-
 import googleapiclient.discovery
 import googleapiclient.errors
 import csv
 
 api_service_name = "youtube"
 api_version = "v3"
-API_key = "AIzaSyBGTpbJlpXs195pbV1gDa11xKzdE2Nm_J0"
+API_key = "googleTranslateApi"
 
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=API_key)
