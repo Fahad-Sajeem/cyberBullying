@@ -7,16 +7,15 @@ import os
 from urllib.parse import quote
 
 project_root = os.getcwd()
-json_file_path = os.path.join(project_root, "backEnd", "Python", "json", "cyber-login-a72ce-firebase-adminsdk-ktx5b-b75b404aee (1).json")
+json_file_path = os.path.join(project_root, "backEnd", "Python", "json", "cyber-login-firebase-adminsdk.json")
 cred = credentials.Certificate(json_file_path)
-# "D:\Webpage/cyberBullying/backEnd/Python/json/cyber-login-a72ce-firebase-adminsdk-ktx5b-b75b404aee (1).json"
 firebase_admin.initialize_app(cred, {
-    'apiKey': 'AIzaSyBWvXfpM1gAA5nBPFauETnCfnuItBvx5mo',
-    'authDomain': 'cyber-login-a72ce.firebaseapp.com',
-    'projectId': 'cyber-login-a72ce',
-    'storageBucket': 'cyber-login-a72ce.appspot.com',
-    'messagingSenderId': '433768429478',
-    'appId': '1:433768429478:web:9dedffe819082888e6c167'
+    'apiKey': 'xxxx',
+    'authDomain': 'xxxx',
+    'projectId': 'xxxx',
+    'storageBucket': 'xxxx',
+    'messagingSenderId': 'xxxx',
+    'appId': 'xxxx'
 })
 
 app = Flask(__name__)
@@ -29,8 +28,7 @@ def receive_video_id():
     userId = data.get('userId')
     
     if videoId:
-        # print("The given user id is:", userId)
-        pdf_bytes = process_video_id(videoId)  # Call the function from main.py
+        pdf_bytes = process_video_id(videoId) 
         bucket = storage.bucket()
         blob = bucket.blob(f'{userId}/{videoId}.pdf')
         blob.upload_from_string(pdf_bytes.getvalue(), content_type='application/pdf')
