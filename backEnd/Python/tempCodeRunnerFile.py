@@ -9,14 +9,14 @@ from urllib.parse import quote
 project_root = os.getcwd()
 json_file_path = os.path.join(project_root, "backEnd", "Python", "json", "cyber-login-a72ce-firebase-adminsdk-ktx5b-b75b404aee (1).json")
 cred = credentials.Certificate(json_file_path)
-"D:\Webpage/cyberBullying/backEnd/Python/json/cyber-login-a72ce-firebase-adminsdk-ktx5b-b75b404aee (1).json"
+"path/cyber-login-a72ce-firebase-adminsdk-ktx5b-b75b404aee (1).json"
 firebase_admin.initialize_app(cred, {
-    'apiKey': 'AIzaSyBWvXfpM1gAA5nBPFauETnCfnuItBvx5mo',
-    'authDomain': 'cyber-login-a72ce.firebaseapp.com',
-    'projectId': 'cyber-login-a72ce',
-    'storageBucket': 'cyber-login-a72ce.appspot.com',
-    'messagingSenderId': '433768429478',
-    'appId': '1:433768429478:web:9dedffe819082888e6c167'
+    'apiKey': '',
+    'authDomain': '',
+    'projectId': '',
+    'storageBucket': '',
+    'messagingSenderId': '',
+    'appId': ''
 })
 
 app = Flask(__name__)
