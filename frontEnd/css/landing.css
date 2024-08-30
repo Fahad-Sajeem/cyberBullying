@@ -1,0 +1,200 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    background-image: url("../Assets/bg.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    /* Set the height to 100% of the viewport height */
+    height: 100vh;
+    /* Use flexbox to center the .container div */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ensure the body takes up the full viewport height */
+    /* margin: 0;
+    padding: 0; */
+}
+
+.container {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* gap: 5px; */
+    backdrop-filter: blur(5px);
+    /* background-color: aqua; */
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px;
+    padding: 30px;
+    /* background-color: aqua; */
+    /* Adjust the width and height as needed */
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    /* flex: 1 0 1rem; */
+    font-size: 17px;
+    padding: 15px;
+    color: white;
+    width: 250px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 0.4s;
+    text-shadow: 0px 5px 5px black;
+    
+}
+.box{
+    /* flex: 1 0 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    /* border: 2px solid rgb(97, 97,180); */
+    height: 300px;
+    backdrop-filter: blur(5px);
+    border-radius: 40px;
+    /* width:200px; */
+    width: 70px;
+    margin: 5px;
+    box-shadow: 0px 0px 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    transition: 0.4s;
+    /* transition: transform 1s; */
+    text-align: center;
+    /* padding: 20px; */
+
+}
+.box:hover{
+    width: 270px;
+    transform: translateY(-15px);
+    box-shadow: 0px 10px 10px;
+
+}
+.box:hover .text {
+    /* Create a gradient that goes from transparent to a dark color at the bottom */
+    background: linear-gradient(to top, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0));
+    /* Ensure the background is only applied to the text area */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* Add padding and other styles as needed */
+    padding: 10px;
+    opacity: 1;
+    transform: translateY(0px);
+    font-size: 16px;
+
+
+}
+.logo img{
+    border-radius: 70px;
+    box-shadow: 0px 0px 20px black;
+}
+.logo{
+    text-align: center;
+    margin-right: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+i{
+    color: white;
+    text-shadow: 0px 5px 5px black;
+    /* background-color: aqua; */
+    width: 50px;
+    font-size: 30px;
+    padding: 5px;
+}
+.icon1{
+    transform: translateY(100%);
+    transition: 0.4s;
+}
+.icon2{
+    margin-left: 7px;
+    transform: translateY(40%);
+    transition: 0.4s;
+
+}
+.icon3{
+    transform: translateY(110%);
+    transition: 0.4s;
+
+}
+.box:hover .icon1,
+.box:hover .icon2,
+.box:hover .icon3{
+    
+    /* transform: translateY(900%); */
+    transform: scale(2);
+    /* font-size: 100px; */
+}
+.box:active{
+    transform: scale(0.95);
+}
+
+.about {
+    position: fixed; /* Fixed positioning so it stays in place regardless of scrolling */
+    z-index: 9999; /* Set a high z-index value to ensure it appears on top of other elements */
+    /* top: 0; Positioning it at the top of the viewport */
+    margin-right: 15px;
+    /* margin-top: -59px; */
+    right: 0;
+    top: 10%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: 33%;
+    height: 78%;
+    overflow-y: scroll;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px ;
+    transform: translateX(150%);
+    transition:  ease 0.3s;
+    text-align: justify;
+}
+.about div{
+    backdrop-filter: blur(5px);
+    padding:  5px 20px 20px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.about div h2{
+    font-size: 16px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    /* box-shadow: 0px 0px 10px  ; */
+
+}
+.about::-webkit-scrollbar-track{
+    background: rgba(255, 255, 255, 0.5) ;
+    border-radius: 30px;
+}
+.about::-webkit-scrollbar-thumb{
+    background: rgb(27, 25, 42);
+    box-shadow: 0px 0px 30px black;
+    border-radius: 30px;
+}
+.about::-webkit-scrollbar-corner{}
+
+.slide-about{
+    transform: translateX(0);
+}
+.slide-about-back{
+    transform: translateX(150%);
+}
+.container-shift {
+    transform: translateX(-30%); /* Adjust the percentage based on how much you want to move the container */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+.container-reset {
+    transform: translateX(0); /* Reset the container's position */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
