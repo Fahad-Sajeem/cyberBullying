@@ -3,15 +3,7 @@ import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
 import { getStorage, ref, listAll, getDownloadURL, getMetadata } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-storage.js";
 import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
-
-const firebaseConfig = {
-    apiKey: "AIzaSyBWvXfpM1gAA5nBPFauETnCfnuItBvx5mo",
-    authDomain: "cyber-login-a72ce.firebaseapp.com",
-    projectId: "cyber-login-a72ce",
-    storageBucket: "cyber-login-a72ce.appspot.com",
-    messagingSenderId: "433768429478",
-    appId: "1:433768429478:web:9dedffe819082888e6c167",
-};
+import { firebaseConfig } from "./firebase-config.js";
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
