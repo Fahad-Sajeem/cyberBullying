@@ -36,6 +36,10 @@ You'll also need, none of which are included in this repo (see [Known gaps](#kno
 - A Firebase project with Authentication + Storage enabled, and its Admin SDK service-account JSON
 - The fine-tuned BERT model weights for `backEnd/BertModel/`
 
+### Frontend Firebase config
+
+Copy `frontEnd/js/firebase-config.example.js` to `frontEnd/js/firebase-config.js` and fill in your own Firebase project's web app values (Firebase console → Project settings → General → Your apps). `firebase-config.js` is gitignored so it never gets committed.
+
 ## Running it
 
 ```bash
@@ -49,9 +53,10 @@ This starts the Flask server on `http://127.0.0.1:5000`. Open `frontEnd/html/lan
 
 - **No trained model weights.** `backEnd/BertModel/` only contains the tokenizer files (`config.json`, `vocab.txt`, etc.) — the actual fine-tuned model weights aren't in the repo, so `prediction.py`'s `BertForSequenceClassification.from_pretrained(...)` won't load as-is. You'd need to fine-tune your own or add the missing weights file.
 - **No API keys included** — `API_key = "youtubeApi"` in `comments.py`/`main.py` and the `'xxxx'` placeholders in `app.py`'s Firebase config are exactly that: placeholders. Supply your own via environment variables rather than hardcoding them back in.
-- **Frontend Firebase config is a public client key** (`apiKey` visible in several `frontEnd/js/*.js` files) — this is normal for Firebase web apps (access is meant to be controlled by Firestore/Storage security rules, not by hiding the key), but it does point at a specific live Firebase project (`cyber-login-a72ce`). If that project is still active, double-check its security rules before treating it as safe to leave public.
-- **No `requirements.txt`, `.gitignore`, or automated tests.** `__pycache__/` and various run outputs (`backEnd/OutputFiles/*.csv`, `*.pdf`) are committed — worth adding a `.gitignore` if you keep developing this.
+- **Frontend Firebase config moved out of source.** It used to be hardcoded (as a public client `apiKey`) across nine `frontEnd/js/*.js` files — harmless in principle for a Firebase web app (access is meant to be controlled by security rules, not by hiding the key), but it doesn't belong in source control either, and it pointed at one specific project. It's now loaded from a gitignored `frontEnd/js/firebase-config.js` (see Setup above) so a fork doesn't inherit someone else's project by default. **If the old key (`cyber-login-a72ce`) was ever public, check that project's Firestore/Storage security rules are locked down** — removing it from new commits doesn't undo it having been in git history.
+- **No automated tests.**
 - The backend calls `http://127.0.0.1:5000` from the frontend with no config for a real deployment target.
+- `backEnd/OutputFiles/` and `backEnd/input.csv` (sample CSVs/PDFs from prior runs, containing real YouTube usernames and comments) have been removed from the repo — they were third-party public data, not needed to run or understand the project. The directory is still where `create_report.py` writes new reports; it's git-ignored now so future runs don't get re-committed.
 
 ## What's included vs. not
 
@@ -59,4 +64,4 @@ This starts the Flask server on `http://127.0.0.1:5000`. Open `frontEnd/html/lan
 |---|---|
 | Full frontend (login/signup/landing/results pages) | Fine-tuned BERT weights |
 | Flask backend + PDF report generation | API keys / credentials of any kind |
-| Sample output data (`backEnd/OutputFiles/`) from prior runs | `requirements.txt` |
+| `firebase-config.example.js` template | `requirements.txt` |

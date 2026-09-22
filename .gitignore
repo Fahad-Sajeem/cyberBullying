@@ -1,0 +1,13 @@
+# Real Firebase client config — copy firebase-config.example.js to create it
+frontEnd/js/firebase-config.js
+
+# Python
+__pycache__/
+*.pyc
+
+# Firebase Admin SDK service account
+backEnd/Python/json/
+
+# Generated reports (contain real YouTube usernames/comments)
+backEnd/OutputFiles/
+backEnd/input.csv
